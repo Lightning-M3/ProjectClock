@@ -24,18 +24,18 @@ const NodeCache = require('node-cache');
 require('dotenv').config();
 
 // ============= استيراد النماذج والأدوات =============
-const Ticket = require('./models/Ticket');
-const logger = require('./utils/logger');
-const maintenance = require('./utils/maintenance');
-const Performance = require('./models/Performance');
-const PerformanceAnalyzer = require('./utils/performanceAnalyzer');
-const Points = require('./models/Points');
-const Statistics = require('./models/Statistics');
-const Attendance = require('./models/Attendance');
-const Leave = require('./models/Leave');
-const PointsManager = require('./models/PointsManager');
-const StatisticsManager = require('./models/StatisticsManager');
-const GuildSettings = require('./models/GuildSettings'); // إضافة GuildSettings
+const Ticket = require('./models/Ticket.js');
+const logger = require('./utils/logger.js');
+const maintenance = require('./utils/maintenance.js');
+const Performance = require('./models/Performance.js');
+const PerformanceAnalyzer = require('./utils/performanceAnalyzer.js');
+const Points = require('./models/Points.js');
+const Statistics = require('./models/Statistics.js');
+const Attendance = require('./models/Attendance.js');
+const Leave = require('./models/Leave.js');
+const PointsManager = require('./models/PointsManager.js');
+const StatisticsManager = require('./models/StatisticsManager.js');
+const GuildSettings = require('./models/GuildSettings.js'); // إضافة GuildSettings
 
 // ============= الدوال المساعدة الأساسية =============
 
@@ -215,12 +215,12 @@ const ticketAttempts = new Map();
 const attendanceLocks = new Map();
 
 // ============= استيراد الملفات المحلية =============
-const { setupDailyReset } = require('./cronJobs/dailyReset');
+const { setupDailyReset } = require('./cronJobs/dailyReset.js');
 const { 
     checkRequiredChannels, 
     checkBotPermissions, 
     handleError 
-} = require('./utils/helpers');
+} = require('./utils/helpers.js');
 
 // معالجة الأخطاء غير المتوقعة
 process.on('uncaughtException', (error) => {
@@ -411,11 +411,11 @@ client.on(Events.GuildDelete, async guild => {
        //     await ServerSettings.deleteOne({ guildId: guild.id });
 
             // حذف سجلات الحضور
-            const Attendance = require('./models/Attendance');
+            const Attendance = require('./models/Attendance.js');
             await Attendance.deleteMany({ guildId: guild.id });
 
             // حذف التذاكر
-            const Ticket = require('./models/Ticket');
+            const Ticket = require('./models/Ticket.js');
             await Ticket.deleteMany({ guildId: guild.id });
 
             console.log(`تم حذف جميع بيانات السيرفر ${guild.name} بنجاح`);
@@ -430,11 +430,11 @@ client.on(Events.GuildDelete, async guild => {
            // await ServerSettings.deleteOne({ guildId: guild.id })
              //   .catch(err => console.error('Error deleting server settings:', err));
 
-            const Attendance = require('./models/Attendance');
+            const Attendance = require('./models/Attendance.js');
             await Attendance.deleteMany({ guildId: guild.id })
                 .catch(err => console.error('Error deleting attendance records:', err));
 
-            const Ticket = require('./models/Ticket');
+            const Ticket = require('./models/Ticket.js');
             await Ticket.deleteMany({ guildId: guild.id })
                 .catch(err => console.error('Error deleting tickets:', err));
 
@@ -982,7 +982,7 @@ async function sendDailyReport(guild) {
         const logChannel = guild.channels.cache.find(c => c.name === 'سجل-الحضور');
         if (!logChannel) return;
 
-        const Attendance = require('./models/Attendance');
+        const Attendance = require('./models/Attendance.js');
         const today = new Date();
         today.setHours(0, 0, 0, 0);
 
@@ -1932,6 +1932,6 @@ async function handleDeleteTicket(interaction) {
 }
 
 // استيراد الأوامر
-const openSessionsCommand = require('./commands/open-sessions'); // تأكد من المسار الصحيح
+const openSessionsCommand = require('./commands/open-sessions.js'); // تأكد من المسار الصحيح
 
-require('./cronJobs/attendanceCheck'); // تأكد من المسار الصحيح
+require('./cronJobs/attendanceCheck.js'); // تأكد من المسار الصحيح
