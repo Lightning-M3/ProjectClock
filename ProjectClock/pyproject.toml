@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "tawqeet"
+version = "0.1.0"
+description = "A Discord bot for managing attendance and work hours with Arabic support"
+authors = ["Lightning <glitcho.prox@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+disnake = "^2.8.1"
+python-dotenv = "^1.0.0"
+thefuzz = "^0.19.0"
+
+[tool.poetry.dev-dependencies]
+black = "^23.3.0"
+isort = "^5.12.0"
+flake8 = "^6.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,11 @@
+{
+  "nodeVersion": "23.1.0",
+  "name": "Project",
+  "version": "1.0.0",
+  "description": "An example application - make sure to configure this yourself.",
+  "file": "bot.js",
+  "author": "Lightning",
+  "dependencies": {
+    "python": "0.0.4"
+  }
+}

@@ -1,0 +1,41 @@
+(node:21) ExperimentalWarning: CommonJS module /home/container/tmp/node-v23.1.0-linux-x64/lib/node_modules/npm/node_modules/debug/src/node.js is loading ES Module /home/container/tmp/node-v23.1.0-linux-x64/lib/node_modules/npm/node_modules/supports-color/index.js using require().
+Support for loading ES Module in require() is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+up to date, audited 167 packages in 1s
+
+27 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+(node:32) ExperimentalWarning: CommonJS module /home/container/tmp/node-v23.1.0-linux-x64/lib/node_modules/npm/node_modules/debug/src/node.js is loading ES Module /home/container/tmp/node-v23.1.0-linux-x64/lib/node_modules/npm/node_modules/supports-color/index.js using require().
+Support for loading ES Module in require() is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+> discord-bot@1.0.0 start
+> node index.js
+
+[32minfo[39m: تم تحميل الأمر: activedevbadge {"timestamp":"2024-11-28T13:03:38.210Z"}
+[32minfo[39m: تم تحميل الأمر: admin-data {"timestamp":"2024-11-28T13:03:38.213Z"}
+[32minfo[39m: تم تحميل الأمر: force-checkout {"timestamp":"2024-11-28T13:03:38.214Z"}
+[32minfo[39m: تم تحميل الأمر: force-close-tickets {"timestamp":"2024-11-28T13:03:38.215Z"}
+[32minfo[39m: تم تحميل الأمر: help {"timestamp":"2024-11-28T13:03:38.215Z"}
+[32minfo[39m: تم تحميل الأمر: leaderboard {"timestamp":"2024-11-28T13:03:38.216Z"}
+[32minfo[39m: تم تحميل الأمر: open-sessions {"timestamp":"2024-11-28T13:03:38.216Z"}
+[32minfo[39m: تم تحميل الأمر: ping {"timestamp":"2024-11-28T13:03:38.217Z"}
+[32minfo[39m: تم تحميل الأمر: points {"timestamp":"2024-11-28T13:03:38.217Z"}
+[32minfo[39m: تم تحميل الأمر: reset-tickets {"timestamp":"2024-11-28T13:03:38.218Z"}
+[32minfo[39m: تم تحميل الأمر: servers-list {"timestamp":"2024-11-28T13:03:38.218Z"}
+[32minfo[39m: تم تحميل الأمر: setup {"timestamp":"2024-11-28T13:03:38.221Z"}
+[32minfo[39m: تم تحميل الأمر: stats {"timestamp":"2024-11-28T13:03:38.221Z"}
+[32minfo[39m: تم تحميل الأمر: update {"timestamp":"2024-11-28T13:03:38.222Z"}
+[32minfo[39m: تم تحميل الأمر: vac {"timestamp":"2024-11-28T13:03:38.222Z"}
+تم تسجيل الدخول بنجاح
+تم إعداد البوت بنجاح
+[32minfo[39m: تم تسجيل الدخول كـ ArabPast Bot#3173 {"timestamp":"2024-11-28T13:03:39.189Z"}
+تم تسجيل الدخول كـ ArabPast Bot#3173
+[32minfo[39m: تم الاتصال بقاعدة البيانات MongoDB {"timestamp":"2024-11-28T13:03:39.356Z"}
+بدء تحديث 15 من الأوامر.
+✅ تم تحديث 15 من الأوامر بنجاح.
+[31merror[39m: Uncaught Exception: Uncaught Exception: {"critical":true,"stack":"TypeError: Cannot read properties of undefined (reading 'startsWith')\n    at Client.<anonymous> (/home/container/index.js:1882:37)\n    at Client.emit (node:events:519:35)\n    at InteractionCreateAction.handle (/home/container/node_modules/discord.js/src/client/actions/InteractionCreate.js:97:12)\n    at module.exports [as INTERACTION_CREATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)\n    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)\n    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)\n    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)\n    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1005:14)","timestamp":"2024-11-28T13:05:22.081Z"}
+Starting check-in process for user: 743432232529559684

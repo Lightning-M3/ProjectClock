@@ -1,0 +1,217 @@
+(node:21) ExperimentalWarning: CommonJS module /home/container/tmp/node-v23.1.0-linux-x64/lib/node_modules/npm/node_modules/debug/src/node.js is loading ES Module /home/container/tmp/node-v23.1.0-linux-x64/lib/node_modules/npm/node_modules/supports-color/index.js using require().
+Support for loading ES Module in require() is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+up to date, audited 167 packages in 2s
+
+27 packages are looking for funding
+  run `npm fund` for details
+
+7 vulnerabilities (4 moderate, 2 high, 1 critical)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+
+> discord-bot@1.0.0 start
+> node index.js
+
+[32minfo[39m: تم تحميل الأمر: admin-data {"timestamp":"2025-01-31T21:00:06.385Z"}
+[32minfo[39m: تم تحميل الأمر: help {"timestamp":"2025-01-31T21:00:06.389Z"}
+[32minfo[39m: تم تحميل الأمر: open-sessions {"timestamp":"2025-01-31T21:00:06.390Z"}
+[32minfo[39m: تم تحميل الأمر: ping {"timestamp":"2025-01-31T21:00:06.391Z"}
+[32minfo[39m: تم تحميل الأمر: servers-list {"timestamp":"2025-01-31T21:00:06.391Z"}
+[32minfo[39m: تم تحميل الأمر: setup {"timestamp":"2025-01-31T21:00:06.394Z"}
+[32minfo[39m: تم تحميل الأمر: update {"timestamp":"2025-01-31T21:00:06.395Z"}
+تم تسجيل الدخول بنجاح
+تم إعداد البوت بنجاح
+[32minfo[39m: تم تسجيل الدخول كـ Arab Clock#3173 {"timestamp":"2025-01-31T21:00:07.198Z"}
+تم تسجيل الدخول كـ Arab Clock#3173
+[32minfo[39m: تم الاتصال بقاعدة البيانات MongoDB {"timestamp":"2025-01-31T21:00:07.604Z"}
+بدء تحديث 7 من الأوامر.
+✅ تم تحديث 7 من الأوامر بنجاح.
+Starting check-in process for user: 744697855607963690
+Starting check-in process for user: 1291702870130819153
+Starting check-in process for user: 987423620651425923
+Starting check-in process for user: 859109109198225408
+Starting check-in process for user: 719510654108696639
+Starting check-in process for user: 610245223850967042
+Starting check-in process for user: 1047184165516365914
+Starting check-in process for user: 1267493577571696694
+Starting check-in process for user: 1321449716742881314
+Starting check-in process for user: 1332696209156210719
+Starting check-in process for user: 1254191761430020126
+Starting check-in process for user: 1261622184129069160
+Error updating bot presence: TypeError: Cannot read properties of undefined (reading 'setPresence')
+    at updateBotPresence (/home/container/utils/botPresence.js:3:23)
+    at Client.<anonymous> (/home/container/index.js:452:15)
+    at Client.emit (node:events:507:28)
+    at GuildUpdateAction.handle (/home/container/node_modules/discord.js/src/client/actions/GuildUpdate.js:19:14)
+    at module.exports [as GUILD_UPDATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/GUILD_UPDATE.js:4:30)
+    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)
+    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)
+    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)
+    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+Error updating bot presence: TypeError: Cannot read properties of undefined (reading 'setPresence')
+    at updateBotPresence (/home/container/utils/botPresence.js:3:23)
+    at Client.<anonymous> (/home/container/index.js:452:15)
+    at Client.emit (node:events:507:28)
+    at GuildUpdateAction.handle (/home/container/node_modules/discord.js/src/client/actions/GuildUpdate.js:19:14)
+    at module.exports [as GUILD_UPDATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/GUILD_UPDATE.js:4:30)
+    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)
+    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)
+    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)
+    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+Error updating bot presence: TypeError: Cannot read properties of undefined (reading 'setPresence')
+    at updateBotPresence (/home/container/utils/botPresence.js:3:23)
+    at Client.<anonymous> (/home/container/index.js:452:15)
+    at Client.emit (node:events:507:28)
+    at GuildUpdateAction.handle (/home/container/node_modules/discord.js/src/client/actions/GuildUpdate.js:19:14)
+    at module.exports [as GUILD_UPDATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/GUILD_UPDATE.js:4:30)
+    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)
+    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)
+    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)
+    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+Error updating bot presence: TypeError: Cannot read properties of undefined (reading 'setPresence')
+    at updateBotPresence (/home/container/utils/botPresence.js:3:23)
+    at Client.<anonymous> (/home/container/index.js:452:15)
+    at Client.emit (node:events:507:28)
+    at GuildUpdateAction.handle (/home/container/node_modules/discord.js/src/client/actions/GuildUpdate.js:19:14)
+    at module.exports [as GUILD_UPDATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/GUILD_UPDATE.js:4:30)
+    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)
+    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)
+    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)
+    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+Error updating bot presence: TypeError: Cannot read properties of undefined (reading 'setPresence')
+    at updateBotPresence (/home/container/utils/botPresence.js:3:23)
+    at Client.<anonymous> (/home/container/index.js:452:15)
+    at Client.emit (node:events:507:28)
+    at GuildUpdateAction.handle (/home/container/node_modules/discord.js/src/client/actions/GuildUpdate.js:19:14)
+    at module.exports [as GUILD_UPDATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/GUILD_UPDATE.js:4:30)
+    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)
+    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)
+    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)
+    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+Starting check-in process for user: 1212854788677566605
+Starting check-in process for user: 822484996307550228
+Starting check-in process for user: 987423620651425923
+Starting check-in process for user: 822484996307550228
+[31merror[39m: Uncaught Exception: Uncaught Exception: {"critical":true,"stack":"TypeError: Cannot read properties of undefined (reading 'startsWith')\n    at Client.<anonymous> (/home/container/index.js:1882:37)\n    at Client.emit (node:events:519:35)\n    at InteractionCreateAction.handle (/home/container/node_modules/discord.js/src/client/actions/InteractionCreate.js:97:12)\n    at module.exports [as INTERACTION_CREATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)\n    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)\n    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)\n    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)\n    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1005:14)","timestamp":"2025-02-01T03:37:16.190Z"}
+Starting check-in process for user: 1017968703012343888
+Starting check-in process for user: 610245223850967042
+Starting check-in process for user: 1261622184129069160
+Starting check-in process for user: 744697855607963690
+Starting check-in process for user: 1254191761430020126
+Starting check-in process for user: 1212854788677566605
+Starting check-in process for user: 1253230413585842209
+Starting check-in process for user: 1017968703012343888
+Starting check-in process for user: 1017968703012343888
+Starting check-in process for user: 1253285873693229069
+Starting check-in process for user: 1259136980906676298
+Starting check-in process for user: 1325289715422986242
+Starting check-in process for user: 1114696934192590909
+Starting check-in process for user: 1281390289008726091
+Starting check-in process for user: 1324769421884915882
+Starting check-in process for user: 925774772745424976
+Starting check-in process for user: 804009621965504532
+Starting check-in process for user: 1281390289008726091
+Starting check-in process for user: 1253230413585842209
+Starting check-in process for user: 1253285873693229069
+Starting check-in process for user: 1321449716742881314
+Starting check-in process for user: 1264729060588781649
+Starting check-in process for user: 1328823740401717310
+[31merror[39m: Uncaught Exception: Uncaught Exception: {"critical":true,"stack":"TypeError: Cannot read properties of undefined (reading 'startsWith')\n    at Client.<anonymous> (/home/container/index.js:1882:37)\n    at Client.emit (node:events:519:35)\n    at InteractionCreateAction.handle (/home/container/node_modules/discord.js/src/client/actions/InteractionCreate.js:97:12)\n    at module.exports [as INTERACTION_CREATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)\n    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)\n    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)\n    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)\n    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1005:14)","timestamp":"2025-02-01T11:59:18.174Z"}
+Starting check-in process for user: 1316392011359719517
+Starting check-in process for user: 961228281661779968
+Starting check-in process for user: 1332696209156210719
+Starting check-in process for user: 1261622184129069160
+Starting check-in process for user: 1281390289008726091
+Starting check-in process for user: 1291702870130819153
+Starting check-in process for user: 804009621965504532
+Starting check-in process for user: 938860957730472048
+Starting check-in process for user: 1176293094719766558
+Starting check-in process for user: 744697855607963690
+Starting check-in process for user: 1325289715422986242
+Starting check-in process for user: 1291702870130819153
+Starting check-in process for user: 1253230413585842209
+[31merror[39m: Uncaught Exception: Uncaught Exception: {"critical":true,"stack":"TypeError: Cannot read properties of undefined (reading 'startsWith')\n    at Client.<anonymous> (/home/container/index.js:1882:37)\n    at Client.emit (node:events:519:35)\n    at InteractionCreateAction.handle (/home/container/node_modules/discord.js/src/client/actions/InteractionCreate.js:97:12)\n    at module.exports [as INTERACTION_CREATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)\n    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)\n    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)\n    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)\n    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1005:14)","timestamp":"2025-02-01T15:04:36.663Z"}
+[31merror[39m: Uncaught Exception: Uncaught Exception: {"critical":true,"stack":"TypeError: Cannot read properties of undefined (reading 'startsWith')\n    at Client.<anonymous> (/home/container/index.js:1882:37)\n    at Client.emit (node:events:519:35)\n    at InteractionCreateAction.handle (/home/container/node_modules/discord.js/src/client/actions/InteractionCreate.js:97:12)\n    at module.exports [as INTERACTION_CREATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)\n    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)\n    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)\n    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)\n    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1005:14)","timestamp":"2025-02-01T15:04:39.835Z"}
+[31merror[39m: Uncaught Exception: Uncaught Exception: {"critical":true,"stack":"TypeError: Cannot read properties of undefined (reading 'startsWith')\n    at Client.<anonymous> (/home/container/index.js:1882:37)\n    at Client.emit (node:events:519:35)\n    at InteractionCreateAction.handle (/home/container/node_modules/discord.js/src/client/actions/InteractionCreate.js:97:12)\n    at module.exports [as INTERACTION_CREATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)\n    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)\n    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)\n    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)\n    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1005:14)","timestamp":"2025-02-01T15:05:13.621Z"}
+Starting check-in process for user: 1084447609147633725
+Starting check-in process for user: 628963947587960832
+Starting check-in process for user: 1197239155441275032
+Starting check-in process for user: 628963947587960832
+Starting check-in process for user: 1254191761430020126
+Starting check-in process for user: 961228281661779968
+Starting check-in process for user: 1324769421884915882
+Starting check-in process for user: 1332696209156210719
+Starting check-in process for user: 804009621965504532
+Starting check-in process for user: 473035494792495115
+Starting check-in process for user: 1321449716742881314
+Error updating bot presence: TypeError: Cannot read properties of undefined (reading 'setPresence')
+    at updateBotPresence (/home/container/utils/botPresence.js:3:23)
+    at Client.<anonymous> (/home/container/index.js:452:15)
+    at Client.emit (node:events:507:28)
+    at GuildUpdateAction.handle (/home/container/node_modules/discord.js/src/client/actions/GuildUpdate.js:19:14)
+    at module.exports [as GUILD_UPDATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/GUILD_UPDATE.js:4:30)
+    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)
+    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)
+    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)
+    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+Starting check-in process for user: 803898233155354625
+Error updating bot presence: TypeError: Cannot read properties of undefined (reading 'setPresence')
+    at updateBotPresence (/home/container/utils/botPresence.js:3:23)
+    at Client.<anonymous> (/home/container/index.js:452:15)
+    at Client.emit (node:events:507:28)
+    at GuildUpdateAction.handle (/home/container/node_modules/discord.js/src/client/actions/GuildUpdate.js:19:14)
+    at module.exports [as GUILD_UPDATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/GUILD_UPDATE.js:4:30)
+    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)
+    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)
+    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)
+    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+Starting check-in process for user: 961228281661779968
+Starting check-in process for user: 744697855607963690
+Starting check-in process for user: 1254191761430020126
+Starting check-in process for user: 1332696209156210719
+Starting check-in process for user: 1332696209156210719
+Starting check-in process for user: 884895549810163804
+Starting check-in process for user: 1272305002903502961
+Starting check-in process for user: 855040955703230505
+Starting check-in process for user: 804009621965504532
+Starting check-in process for user: 822484996307550228
+Starting check-in process for user: 719510654108696639
+Starting check-in process for user: 1084447609147633725
+Starting check-in process for user: 1325289715422986242
+Starting check-in process for user: 628963947587960832
+Starting check-in process for user: 1176293094719766558
+Starting check-in process for user: 1176293094719766558
+Starting check-in process for user: 1281390289008726091
+Starting check-in process for user: 1084447609147633725
+Starting check-in process for user: 1328823740401717310
+Starting check-in process for user: 582397800742912031
+Starting check-in process for user: 1310632495892533383
+Starting check-in process for user: 1324769421884915882
+Starting check-in process for user: 1281390289008726091
+[31merror[39m: Uncaught Exception: Uncaught Exception: {"critical":true,"stack":"TypeError: Cannot read properties of undefined (reading 'startsWith')\n    at Client.<anonymous> (/home/container/index.js:1882:37)\n    at Client.emit (node:events:519:35)\n    at InteractionCreateAction.handle (/home/container/node_modules/discord.js/src/client/actions/InteractionCreate.js:97:12)\n    at module.exports [as INTERACTION_CREATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)\n    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)\n    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)\n    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)\n    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1005:14)","timestamp":"2025-02-01T19:46:25.820Z"}
+[31merror[39m: Uncaught Exception: Uncaught Exception: {"critical":true,"stack":"TypeError: Cannot read properties of undefined (reading 'startsWith')\n    at Client.<anonymous> (/home/container/index.js:1882:37)\n    at Client.emit (node:events:519:35)\n    at InteractionCreateAction.handle (/home/container/node_modules/discord.js/src/client/actions/InteractionCreate.js:97:12)\n    at module.exports [as INTERACTION_CREATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)\n    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)\n    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)\n    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)\n    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1005:14)","timestamp":"2025-02-01T19:58:00.380Z"}
+Starting check-in process for user: 1261841996327292948
+[31merror[39m: Uncaught Exception: Uncaught Exception: {"critical":true,"stack":"TypeError: Cannot read properties of undefined (reading 'startsWith')\n    at Client.<anonymous> (/home/container/index.js:1882:37)\n    at Client.emit (node:events:519:35)\n    at InteractionCreateAction.handle (/home/container/node_modules/discord.js/src/client/actions/InteractionCreate.js:97:12)\n    at module.exports [as INTERACTION_CREATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)\n    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)\n    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)\n    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)\n    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1005:14)","timestamp":"2025-02-01T20:26:30.654Z"}
+[31merror[39m: Uncaught Exception: Uncaught Exception: {"critical":true,"stack":"TypeError: Cannot read properties of undefined (reading 'startsWith')\n    at Client.<anonymous> (/home/container/index.js:1882:37)\n    at Client.emit (node:events:519:35)\n    at InteractionCreateAction.handle (/home/container/node_modules/discord.js/src/client/actions/InteractionCreate.js:97:12)\n    at module.exports [as INTERACTION_CREATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)\n    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)\n    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)\n    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)\n    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1005:14)","timestamp":"2025-02-01T20:28:58.078Z"}
+Starting check-in process for user: 1176293094719766558
+Starting check-in process for user: 1325289715422986242
+Starting check-in process for user: 853044365285785630
+Starting check-in process for user: 853044365285785630
+[32minfo[39m: Starting automatic check-out... {"timestamp":"2025-02-01T20:58:00.077Z"}
+Starting check-in process for user: 1253230413585842209
+[31merror[39m: Uncaught Exception: Uncaught Exception: {"critical":true,"stack":"TypeError: Cannot read properties of undefined (reading 'startsWith')\n    at Client.<anonymous> (/home/container/index.js:1882:37)\n    at Client.emit (node:events:519:35)\n    at InteractionCreateAction.handle (/home/container/node_modules/discord.js/src/client/actions/InteractionCreate.js:97:12)\n    at module.exports [as INTERACTION_CREATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)\n    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)\n    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)\n    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)\n    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1005:14)","timestamp":"2025-02-01T20:58:23.179Z"}
+[32minfo[39m: Starting daily attendance report... {"timestamp":"2025-02-01T20:59:00.093Z"}
+Starting check-in process for user: 853044365285785630
+Starting check-in process for user: 1261622184129069160

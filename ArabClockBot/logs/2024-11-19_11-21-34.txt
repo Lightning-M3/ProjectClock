@@ -1,0 +1,62 @@
+(node:21) ExperimentalWarning: CommonJS module /home/container/tmp/node-v23.1.0-linux-x64/lib/node_modules/npm/node_modules/debug/src/node.js is loading ES Module /home/container/tmp/node-v23.1.0-linux-x64/lib/node_modules/npm/node_modules/supports-color/index.js using require().
+Support for loading ES Module in require() is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+up to date, audited 167 packages in 1s
+
+27 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+> discord-bot@1.0.0 start
+> node index.js
+
+تم تحميل الأمر activedevbadge
+تم تحميل الأمر admin-data
+تم تحميل الأمر create_ticket_channels
+تم تحميل الأمر create-welcome
+تم تحميل الأمر force-checkout
+تم تحميل الأمر force-close-tickets
+تم تحميل الأمر help
+تم تحميل الأمر leaderboard
+تم تحميل الأمر open-sessions
+تم تحميل الأمر ping
+تم تحميل الأمر points
+تم تحميل الأمر reset-tickets
+تم تحميل الأمر servers-list
+تم تحميل الأمر setup-apply
+تم تحميل الأمر setup_attendance
+تم تحميل الأمر stats
+تم تحميل الأمر update
+تم تحميل الأمر vac
+تم تسجيل الدخول بنجاح
+تم إعداد البوت بنجاح
+[32minfo[39m: تم تسجيل الدخول كـ ArabPast Bot#3173 {"timestamp":"2024-11-19T11:21:37.616Z"}
+تم تسجيل الدخول كـ ArabPast Bot#3173
+[32minfo[39m: تم الاتصال بقاعدة البيانات MongoDB {"timestamp":"2024-11-19T11:21:37.850Z"}
+بدء تحديث 18 من الأوامر.
+✅ تم تحديث 18 من الأوامر بنجاح.
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-19T11:34:00.033Z"}
+Starting check-in process for user: 1276881789738160201
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-19T11:34:54.251Z"}
+Starting check-in process for user: 939250757763477525
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-19T11:36:47.500Z"}
+[31merror[39m: Error in attendance check cron job: Error in attendance check cron job: {"critical":false,"stack":"TypeError: Cannot read properties of undefined (reading 'cache')\n    at Task._execution (/home/container/cronJobs/attendanceCheck.js:10:38)\n    at Task.execute (/home/container/node_modules/node-cron/src/task.js:17:25)\n    at ScheduledTask.now (/home/container/node_modules/node-cron/src/scheduled-task.js:38:33)\n    at Scheduler.<anonymous> (/home/container/node_modules/node-cron/src/scheduled-task.js:25:18)\n    at Scheduler.emit (node:events:507:28)\n    at Timeout.matchTime [as _onTimeout] (/home/container/node_modules/node-cron/src/scheduler.js:30:26)\n    at listOnTimeout (node:internal/timers:614:17)\n    at process.processTimers (node:internal/timers:549:7)","timestamp":"2024-11-19T12:00:00.197Z"}
+[31merror[39m: Error in interaction: Error in interaction: {"critical":false,"stack":"ReferenceError: command is not defined\n    at Client.<anonymous> (/home/container/index.js:299:9)\n    at Client.emit (node:events:519:35)\n    at InteractionCreateAction.handle (/home/container/node_modules/discord.js/src/client/actions/InteractionCreate.js:97:12)\n    at module.exports [as INTERACTION_CREATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)\n    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)\n    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)\n    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)\n    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1005:14)","timestamp":"2024-11-19T12:23:57.975Z"}
+Error in interaction: ReferenceError: command is not defined
+    at Client.<anonymous> (/home/container/index.js:299:9)
+    at Client.emit (node:events:519:35)
+    at InteractionCreateAction.handle (/home/container/node_modules/discord.js/src/client/actions/InteractionCreate.js:97:12)
+    at module.exports [as INTERACTION_CREATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)
+    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)
+    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)
+    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)
+    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1005:14)
+[31merror[39m: Uncaught Exception: Uncaught Exception: {"critical":true,"stack":"TypeError: Cannot read properties of undefined (reading 'startsWith')\n    at Client.<anonymous> (/home/container/index.js:2208:37)\n    at Client.emit (node:events:519:35)\n    at InteractionCreateAction.handle (/home/container/node_modules/discord.js/src/client/actions/InteractionCreate.js:97:12)\n    at module.exports [as INTERACTION_CREATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)\n    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)\n    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)\n    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)\n    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1005:14)","timestamp":"2024-11-19T12:23:57.978Z"}
+Error in error handler: TypeError: Cannot read properties of null (reading 'channels')
+    at handleInteractionError (/home/container/index.js:1195:46)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Client.<anonymous> (/home/container/index.js:302:9)

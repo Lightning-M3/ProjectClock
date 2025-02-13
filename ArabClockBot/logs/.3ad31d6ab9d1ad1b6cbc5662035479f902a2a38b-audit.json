@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 7
+    },
+    "auditLog": "/Users/moaath/Documents/Discord-bot/logs/.3ad31d6ab9d1ad1b6cbc5662035479f902a2a38b-audit.json",
+    "files": [
+        {
+            "date": 1730559502152,
+            "name": "/Users/moaath/Documents/Discord-bot/logs/combined-2024-11-02.log",
+            "hash": "2ecb067b52f25b7e14dfc9a5ad5e02fb07d20c7266014044cbf379bbcf5fec84"
+        },
+        {
+            "date": 1730582113236,
+            "name": "/Users/moaath/Documents/Discord-bot/logs/combined-2024-11-03.log",
+            "hash": "c60c463fc67160902914f82aec90cbfd152d24982d30373f1c77b49b7505e3e8"
+        }
+    ],
+    "hashType": "sha256"
+}

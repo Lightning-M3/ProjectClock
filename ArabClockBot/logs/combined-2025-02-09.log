@@ -1,0 +1,12 @@
+{"level":"info","message":"Starting automatic check-out...","timestamp":"2025-02-09T20:58:00.735Z"}
+{"level":"info","message":"Removed attendance role from lisadreeop in guild ArabBloom","timestamp":"2025-02-09T20:58:09.089Z"}
+{"level":"info","message":"Starting daily attendance report...","timestamp":"2025-02-09T20:59:00.787Z"}
+{"level":"info","message":"تم تحميل الأمر: admin-data","timestamp":"2025-02-09T21:00:07.172Z"}
+{"level":"info","message":"تم تحميل الأمر: help","timestamp":"2025-02-09T21:00:07.177Z"}
+{"level":"info","message":"تم تحميل الأمر: open-sessions","timestamp":"2025-02-09T21:00:07.178Z"}
+{"level":"info","message":"تم تحميل الأمر: ping","timestamp":"2025-02-09T21:00:07.179Z"}
+{"level":"info","message":"تم تحميل الأمر: servers-list","timestamp":"2025-02-09T21:00:07.180Z"}
+{"level":"info","message":"تم تحميل الأمر: setup","timestamp":"2025-02-09T21:00:07.184Z"}
+{"level":"info","message":"تم تحميل الأمر: update","timestamp":"2025-02-09T21:00:07.185Z"}
+{"level":"info","message":"تم تسجيل الدخول كـ Arab Clock#3173","timestamp":"2025-02-09T21:00:08.181Z"}
+{"level":"info","message":"تم الاتصال بقاعدة البيانات MongoDB","timestamp":"2025-02-09T21:00:08.376Z"}

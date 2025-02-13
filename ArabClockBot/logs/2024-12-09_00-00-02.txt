@@ -1,0 +1,149 @@
+(node:21) ExperimentalWarning: CommonJS module /home/container/tmp/node-v23.1.0-linux-x64/lib/node_modules/npm/node_modules/debug/src/node.js is loading ES Module /home/container/tmp/node-v23.1.0-linux-x64/lib/node_modules/npm/node_modules/supports-color/index.js using require().
+Support for loading ES Module in require() is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+up to date, audited 167 packages in 2s
+
+27 packages are looking for funding
+  run `npm fund` for details
+
+3 vulnerabilities (2 moderate, 1 high)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+(node:32) ExperimentalWarning: CommonJS module /home/container/tmp/node-v23.1.0-linux-x64/lib/node_modules/npm/node_modules/debug/src/node.js is loading ES Module /home/container/tmp/node-v23.1.0-linux-x64/lib/node_modules/npm/node_modules/supports-color/index.js using require().
+Support for loading ES Module in require() is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+> discord-bot@1.0.0 start
+> node index.js
+
+[32minfo[39m: تم تحميل الأمر: activedevbadge {"timestamp":"2024-12-09T00:00:05.610Z"}
+[32minfo[39m: تم تحميل الأمر: admin-data {"timestamp":"2024-12-09T00:00:05.614Z"}
+[32minfo[39m: تم تحميل الأمر: force-checkout {"timestamp":"2024-12-09T00:00:05.615Z"}
+[32minfo[39m: تم تحميل الأمر: force-close-tickets {"timestamp":"2024-12-09T00:00:05.616Z"}
+[32minfo[39m: تم تحميل الأمر: help {"timestamp":"2024-12-09T00:00:05.616Z"}
+[32minfo[39m: تم تحميل الأمر: leaderboard {"timestamp":"2024-12-09T00:00:05.617Z"}
+[32minfo[39m: تم تحميل الأمر: open-sessions {"timestamp":"2024-12-09T00:00:05.618Z"}
+[32minfo[39m: تم تحميل الأمر: ping {"timestamp":"2024-12-09T00:00:05.618Z"}
+[32minfo[39m: تم تحميل الأمر: points {"timestamp":"2024-12-09T00:00:05.619Z"}
+[32minfo[39m: تم تحميل الأمر: reset-tickets {"timestamp":"2024-12-09T00:00:05.620Z"}
+[32minfo[39m: تم تحميل الأمر: servers-list {"timestamp":"2024-12-09T00:00:05.620Z"}
+[32minfo[39m: تم تحميل الأمر: setup {"timestamp":"2024-12-09T00:00:05.624Z"}
+[32minfo[39m: تم تحميل الأمر: stats {"timestamp":"2024-12-09T00:00:05.625Z"}
+[32minfo[39m: تم تحميل الأمر: update {"timestamp":"2024-12-09T00:00:05.625Z"}
+[32minfo[39m: تم تحميل الأمر: vac {"timestamp":"2024-12-09T00:00:05.626Z"}
+تم تسجيل الدخول بنجاح
+تم إعداد البوت بنجاح
+[32minfo[39m: تم الاتصال بقاعدة البيانات MongoDB {"timestamp":"2024-12-09T00:00:06.883Z"}
+[32minfo[39m: تم تسجيل الدخول كـ ArabPast Bot#3173 {"timestamp":"2024-12-09T00:00:07.010Z"}
+تم تسجيل الدخول كـ ArabPast Bot#3173
+بدء تحديث 15 من الأوامر.
+✅ تم تحديث 15 من الأوامر بنجاح.
+Starting check-in process for user: 913780045280051251
+Starting check-in process for user: 1262679797834711123
+Starting check-in process for user: 1081392125574393987
+Starting check-in process for user: 1008480992358563961
+Starting check-in process for user: 1081392125574393987
+Starting check-in process for user: 1300820362975514678
+Starting check-in process for user: 1081392125574393987
+Starting check-in process for user: 1081392125574393987
+Starting check-in process for user: 1197239155441275032
+Starting check-in process for user: 1144068928646164492
+Starting check-in process for user: 1217605457120591905
+Starting check-in process for user: 1071055395348566086
+Starting check-in process for user: 1261841996327292948
+Starting check-in process for user: 718426232706039818
+Starting check-in process for user: 1071055395348566086
+Starting check-in process for user: 1208694530409242686
+Starting check-in process for user: 718426232706039818
+Starting check-in process for user: 1071055395348566086
+Starting check-in process for user: 1081392125574393987
+Starting check-in process for user: 1197239155441275032
+Starting check-in process for user: 1008480992358563961
+Starting check-in process for user: 1241675114077229168
+Starting check-in process for user: 1071055395348566086
+Starting check-in process for user: 1208694530409242686
+Starting check-in process for user: 1262679797834711123
+Starting check-in process for user: 718426232706039818
+Starting check-in process for user: 1241675114077229168
+[32minfo[39m: Starting automatic check-out... {"timestamp":"2024-12-09T20:58:00.993Z"}
+[32minfo[39m: Starting daily attendance report... {"timestamp":"2024-12-09T20:59:00.020Z"}
+Starting check-in process for user: 1071055395348566086
+Starting check-in process for user: 859109109198225408
+Starting check-in process for user: 766448919558357072
+Starting check-in process for user: 1242816745253769226
+Starting check-in process for user: 1071055395348566086
+Starting check-in process for user: 1071055395348566086
+Starting check-in process for user: 1217605457120591905
+Starting check-in process for user: 1261841996327292948
+[32minfo[39m: تم إضافة البوت إلى سيرفر جديد: iysr0's server {"timestamp":"2024-12-10T11:44:02.484Z"}
+[33mwarn[39m: تم تجاهل محاولة إعداد السيرفر iysr0's server بسبب التكرار السريع {"timestamp":"2024-12-10T11:44:02.489Z"}
+[32minfo[39m: بدء إعداد السيرفر iysr0's server {"timestamp":"2024-12-10T11:44:02.587Z"}
+[31merror[39m: خطأ أثناء إعداد السيرفر iysr0's server: خطأ أثناء إعداد السيرفر iysr0's server: {"critical":false,"stack":"ReferenceError: setupGuild is not defined\n    at Client.<anonymous> (/home/container/index.js:373:9)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2024-12-10T11:44:02.587Z"}
+[32minfo[39m: محاولة إعادة إعداد السيرفر iysr0's server {"timestamp":"2024-12-10T11:44:07.583Z"}
+[31merror[39m: فشل في إعادة إعداد السيرفر iysr0's server: فشل في إعادة إعداد السيرفر iysr0's server: {"critical":false,"stack":"ReferenceError: setupGuild is not defined\n    at Timeout._onTimeout (/home/container/index.js:1645:17)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2024-12-10T11:44:07.584Z"}
+[32minfo[39m: محاولة إعادة إعداد السيرفر iysr0's server {"timestamp":"2024-12-10T11:44:07.588Z"}
+[31merror[39m: فشلت محاولة إعادة إعداد السيرفر iysr0's server: فشلت محاولة إعادة إعداد السيرفر iysr0's server: {"critical":false,"stack":"ReferenceError: setupGuild is not defined\n    at Timeout._onTimeout (/home/container/index.js:382:21)\n    at listOnTimeout (node:internal/timers:614:17)\n    at process.processTimers (node:internal/timers:549:7)","timestamp":"2024-12-10T11:44:07.588Z"}
+[31merror[39m: Uncaught Exception: Uncaught Exception: {"critical":true,"stack":"TypeError: Cannot read properties of undefined (reading 'startsWith')\n    at Client.<anonymous> (/home/container/index.js:1882:37)\n    at Client.emit (node:events:519:35)\n    at InteractionCreateAction.handle (/home/container/node_modules/discord.js/src/client/actions/InteractionCreate.js:97:12)\n    at module.exports [as INTERACTION_CREATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)\n    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)\n    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)\n    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)\n    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1005:14)","timestamp":"2024-12-10T11:45:47.334Z"}
+[31merror[39m: Uncaught Exception: Uncaught Exception: {"critical":true,"stack":"TypeError: Cannot read properties of undefined (reading 'startsWith')\n    at Client.<anonymous> (/home/container/index.js:1882:37)\n    at Client.emit (node:events:519:35)\n    at InteractionCreateAction.handle (/home/container/node_modules/discord.js/src/client/actions/InteractionCreate.js:97:12)\n    at module.exports [as INTERACTION_CREATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)\n    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)\n    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)\n    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)\n    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1005:14)","timestamp":"2024-12-10T11:46:27.675Z"}
+[31merror[39m: Uncaught Exception: Uncaught Exception: {"critical":true,"stack":"TypeError: Cannot read properties of undefined (reading 'startsWith')\n    at Client.<anonymous> (/home/container/index.js:1882:37)\n    at Client.emit (node:events:519:35)\n    at InteractionCreateAction.handle (/home/container/node_modules/discord.js/src/client/actions/InteractionCreate.js:97:12)\n    at module.exports [as INTERACTION_CREATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)\n    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)\n    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)\n    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)\n    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1005:14)","timestamp":"2024-12-10T11:47:03.560Z"}
+ReferenceError: loadCommands is not defined
+    at Object.execute (/home/container/commands/update.js:15:30)
+    at Client.<anonymous> (/home/container/index.js:304:31)
+    at Client.emit (node:events:519:35)
+    at InteractionCreateAction.handle (/home/container/node_modules/discord.js/src/client/actions/InteractionCreate.js:97:12)
+    at module.exports [as INTERACTION_CREATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)
+    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)
+    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)
+    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)
+    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+[31merror[39m: Uncaught Exception: Uncaught Exception: {"critical":true,"stack":"TypeError: Cannot read properties of undefined (reading 'startsWith')\n    at Client.<anonymous> (/home/container/index.js:1882:37)\n    at Client.emit (node:events:519:35)\n    at InteractionCreateAction.handle (/home/container/node_modules/discord.js/src/client/actions/InteractionCreate.js:97:12)\n    at module.exports [as INTERACTION_CREATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)\n    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)\n    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)\n    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)\n    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1005:14)","timestamp":"2024-12-10T11:47:10.552Z"}
+[31merror[39m: Uncaught Exception: Uncaught Exception: {"critical":true,"stack":"TypeError: Cannot read properties of undefined (reading 'startsWith')\n    at Client.<anonymous> (/home/container/index.js:1882:37)\n    at Client.emit (node:events:519:35)\n    at InteractionCreateAction.handle (/home/container/node_modules/discord.js/src/client/actions/InteractionCreate.js:97:12)\n    at module.exports [as INTERACTION_CREATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)\n    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)\n    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)\n    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)\n    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1005:14)","timestamp":"2024-12-10T11:47:27.947Z"}
+[31merror[39m: Uncaught Exception: Uncaught Exception: {"critical":true,"stack":"TypeError: Cannot read properties of undefined (reading 'startsWith')\n    at Client.<anonymous> (/home/container/index.js:1882:37)\n    at Client.emit (node:events:519:35)\n    at InteractionCreateAction.handle (/home/container/node_modules/discord.js/src/client/actions/InteractionCreate.js:97:12)\n    at module.exports [as INTERACTION_CREATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)\n    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)\n    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)\n    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)\n    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1005:14)","timestamp":"2024-12-10T11:47:52.414Z"}
+[31merror[39m: Uncaught Exception: Uncaught Exception: {"critical":true,"stack":"TypeError: Cannot read properties of undefined (reading 'startsWith')\n    at Client.<anonymous> (/home/container/index.js:1882:37)\n    at Client.emit (node:events:519:35)\n    at InteractionCreateAction.handle (/home/container/node_modules/discord.js/src/client/actions/InteractionCreate.js:97:12)\n    at module.exports [as INTERACTION_CREATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)\n    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)\n    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)\n    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)\n    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1005:14)","timestamp":"2024-12-10T11:48:14.270Z"}
+[31merror[39m: Uncaught Exception: Uncaught Exception: {"critical":true,"stack":"TypeError: Cannot read properties of undefined (reading 'startsWith')\n    at Client.<anonymous> (/home/container/index.js:1882:37)\n    at Client.emit (node:events:519:35)\n    at InteractionCreateAction.handle (/home/container/node_modules/discord.js/src/client/actions/InteractionCreate.js:97:12)\n    at module.exports [as INTERACTION_CREATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)\n    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)\n    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)\n    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)\n    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1005:14)","timestamp":"2024-12-10T11:48:40.541Z"}
+[32minfo[39m: تم إضافة البوت إلى سيرفر جديد: اجتماع {"timestamp":"2024-12-10T11:49:33.745Z"}
+[33mwarn[39m: تم تجاهل محاولة إعداد السيرفر اجتماع بسبب التكرار السريع {"timestamp":"2024-12-10T11:49:33.745Z"}
+[32minfo[39m: بدء إعداد السيرفر اجتماع {"timestamp":"2024-12-10T11:49:33.844Z"}
+[31merror[39m: خطأ أثناء إعداد السيرفر اجتماع: خطأ أثناء إعداد السيرفر اجتماع: {"critical":false,"stack":"ReferenceError: setupGuild is not defined\n    at Client.<anonymous> (/home/container/index.js:373:9)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2024-12-10T11:49:33.845Z"}
+[32minfo[39m: محاولة إعادة إعداد السيرفر اجتماع {"timestamp":"2024-12-10T11:49:38.844Z"}
+[31merror[39m: فشل في إعادة إعداد السيرفر اجتماع: فشل في إعادة إعداد السيرفر اجتماع: {"critical":false,"stack":"ReferenceError: setupGuild is not defined\n    at Timeout._onTimeout (/home/container/index.js:1645:17)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2024-12-10T11:49:38.845Z"}
+[32minfo[39m: محاولة إعادة إعداد السيرفر اجتماع {"timestamp":"2024-12-10T11:49:38.845Z"}
+[31merror[39m: فشلت محاولة إعادة إعداد السيرفر اجتماع: فشلت محاولة إعادة إعداد السيرفر اجتماع: {"critical":false,"stack":"ReferenceError: setupGuild is not defined\n    at Timeout._onTimeout (/home/container/index.js:382:21)\n    at listOnTimeout (node:internal/timers:614:17)\n    at process.processTimers (node:internal/timers:549:7)","timestamp":"2024-12-10T11:49:38.845Z"}
+[31merror[39m: Uncaught Exception: Uncaught Exception: {"critical":true,"stack":"TypeError: Cannot read properties of undefined (reading 'startsWith')\n    at Client.<anonymous> (/home/container/index.js:1882:37)\n    at Client.emit (node:events:519:35)\n    at InteractionCreateAction.handle (/home/container/node_modules/discord.js/src/client/actions/InteractionCreate.js:97:12)\n    at module.exports [as INTERACTION_CREATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)\n    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)\n    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)\n    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)\n    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1005:14)","timestamp":"2024-12-10T11:49:48.337Z"}
+[31merror[39m: Uncaught Exception: Uncaught Exception: {"critical":true,"stack":"TypeError: Cannot read properties of undefined (reading 'startsWith')\n    at Client.<anonymous> (/home/container/index.js:1882:37)\n    at Client.emit (node:events:519:35)\n    at InteractionCreateAction.handle (/home/container/node_modules/discord.js/src/client/actions/InteractionCreate.js:97:12)\n    at module.exports [as INTERACTION_CREATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)\n    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)\n    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)\n    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)\n    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1005:14)","timestamp":"2024-12-10T11:49:55.216Z"}
+Starting check-in process for user: 859109109198225408
+[31merror[39m: Uncaught Exception: Uncaught Exception: {"critical":true,"stack":"TypeError: Cannot read properties of undefined (reading 'startsWith')\n    at Client.<anonymous> (/home/container/index.js:1882:37)\n    at Client.emit (node:events:519:35)\n    at InteractionCreateAction.handle (/home/container/node_modules/discord.js/src/client/actions/InteractionCreate.js:97:12)\n    at module.exports [as INTERACTION_CREATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)\n    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)\n    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)\n    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)\n    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1005:14)","timestamp":"2024-12-10T11:50:31.298Z"}
+Starting check-in process for user: 1202191746185048067
+Starting check-in process for user: 836768411807776768
+Starting check-in process for user: 836768411807776768
+Starting check-in process for user: 1008480992358563961
+Starting check-in process for user: 859109109198225408
+Starting check-in process for user: 836768411807776768
+Starting check-in process for user: 836768411807776768
+Starting check-in process for user: 836768411807776768
+Starting check-in process for user: 1280316187510833224
+Starting check-in process for user: 1071055395348566086
+Starting check-in process for user: 1280316187510833224
+Starting check-in process for user: 1008480992358563961
+Starting check-in process for user: 1261841996327292948
+Starting check-in process for user: 859109109198225408
+Starting check-in process for user: 1280316187510833224
+Starting check-in process for user: 718426232706039818
+Starting check-in process for user: 1071055395348566086
+انقطع الاتصال بقاعدة البيانات. محاولة إعادة الاتصال...
+تم إعادة الاتصال بنجاح
+Starting check-in process for user: 1008480992358563961
+Starting check-in process for user: 1208694530409242686
+Starting check-in process for user: 1280316187510833224
+Starting check-in process for user: 1217605457120591905
+Starting check-in process for user: 1261841996327292948
+Starting check-in process for user: 1081392125574393987
+Starting check-in process for user: 1261560022870261761
+[32minfo[39m: Starting automatic check-out... {"timestamp":"2024-12-10T20:58:00.389Z"}
+[32minfo[39m: Starting daily attendance report... {"timestamp":"2024-12-10T20:59:00.408Z"}
+Starting check-in process for user: 1071055395348566086

@@ -1,0 +1,33 @@
+(node:20) ExperimentalWarning: CommonJS module /home/container/tmp/node-v23.1.0-linux-x64/lib/node_modules/npm/node_modules/debug/src/node.js is loading ES Module /home/container/tmp/node-v23.1.0-linux-x64/lib/node_modules/npm/node_modules/supports-color/index.js using require().
+Support for loading ES Module in require() is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+up to date, audited 167 packages in 1s
+
+27 packages are looking for funding
+  run `npm fund` for details
+
+3 vulnerabilities (2 moderate, 1 high)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+
+> discord-bot@1.0.0 start
+> node index.js
+
+[32minfo[39m: تم تحميل الأمر: admin-data {"timestamp":"2025-01-05T19:40:29.774Z"}
+[32minfo[39m: تم تحميل الأمر: help {"timestamp":"2025-01-05T19:40:29.778Z"}
+[32minfo[39m: تم تحميل الأمر: open-sessions {"timestamp":"2025-01-05T19:40:29.779Z"}
+[32minfo[39m: تم تحميل الأمر: ping {"timestamp":"2025-01-05T19:40:29.779Z"}
+[32minfo[39m: تم تحميل الأمر: servers-list {"timestamp":"2025-01-05T19:40:29.780Z"}
+[32minfo[39m: تم تحميل الأمر: setup {"timestamp":"2025-01-05T19:40:29.783Z"}
+[32minfo[39m: تم تحميل الأمر: update {"timestamp":"2025-01-05T19:40:29.784Z"}
+تم تسجيل الدخول بنجاح
+تم إعداد البوت بنجاح
+[32minfo[39m: تم تسجيل الدخول كـ Arab Clock#3173 {"timestamp":"2025-01-05T19:40:30.612Z"}
+تم تسجيل الدخول كـ Arab Clock#3173
+[32minfo[39m: تم الاتصال بقاعدة البيانات MongoDB {"timestamp":"2025-01-05T19:40:31.102Z"}
+بدء تحديث 7 من الأوامر.
+✅ تم تحديث 7 من الأوامر بنجاح.

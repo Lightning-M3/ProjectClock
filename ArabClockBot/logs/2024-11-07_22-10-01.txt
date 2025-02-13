@@ -1,0 +1,49 @@
+(node:21) ExperimentalWarning: CommonJS module /home/container/tmp/node-v23.1.0-linux-x64/lib/node_modules/npm/node_modules/debug/src/node.js is loading ES Module /home/container/tmp/node-v23.1.0-linux-x64/lib/node_modules/npm/node_modules/supports-color/index.js using require().
+Support for loading ES Module in require() is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+up to date, audited 167 packages in 1s
+
+27 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+> discord-bot@1.0.0 start
+> node index.js
+
+تم تحميل الأمر activedevbadge
+تم تحميل الأمر admin-data
+تم تحميل الأمر create_ticket_channels
+تم تحميل الأمر create-welcome
+تم تحميل الأمر force-close-tickets
+تم تحميل الأمر help
+تم تحميل الأمر ping
+تم تحميل الأمر reset-tickets
+تم تحميل الأمر servers-list
+تم تحميل الأمر setup-apply
+تم تحميل الأمر setup_attendance
+تم تحميل الأمر update
+تم تحميل الأمر vac
+تم تسجيل الدخول بنجاح
+تم إعداد البوت بنجاح
+[32minfo[39m: تم تسجيل الدخول كـ ArabPast Bot#3173 {"timestamp":"2024-11-07T22:10:05.073Z"}
+تم تسجيل الدخول كـ ArabPast Bot#3173
+[32minfo[39m: تم الاتصال بقاعدة البيانات MongoDB {"timestamp":"2024-11-07T22:10:05.464Z"}
+بدء تحديث 13 من الأوامر.
+✅ تم تحديث 13 من الأوامر بنجاح.
+[32minfo[39m: Generating daily statistics... {"timestamp":"2024-11-08T00:00:00.232Z"}
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-08T11:14:17.081Z"}
+Starting check-in process for user: 693785381648465992
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-08T13:35:42.960Z"}
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-08T13:36:01.029Z"}
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-08T20:09:19.409Z"}
+Starting check-in process for user: 606910571887198208
+[32minfo[39m: Starting automatic check-out... {"timestamp":"2024-11-08T20:58:00.457Z"}
+[32minfo[39m: Starting daily attendance report... {"timestamp":"2024-11-08T20:59:00.476Z"}
+Error sending daily report: DOMException [AbortError]: This operation was aborted
+    at new DOMException (node:internal/per_context/domexception:53:5)
+    at AbortController.abort (node:internal/abort_controller:443:18)
+    at Timeout.<anonymous> (/home/container/node_modules/@discordjs/rest/dist/index.js:680:47)
+    at listOnTimeout (node:internal/timers:614:17)
+    at process.processTimers (node:internal/timers:549:7)

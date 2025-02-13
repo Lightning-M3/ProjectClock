@@ -1,0 +1,399 @@
+(node:21) ExperimentalWarning: CommonJS module /home/container/tmp/node-v23.1.0-linux-x64/lib/node_modules/npm/node_modules/debug/src/node.js is loading ES Module /home/container/tmp/node-v23.1.0-linux-x64/lib/node_modules/npm/node_modules/supports-color/index.js using require().
+Support for loading ES Module in require() is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+up to date, audited 167 packages in 1s
+
+27 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+> discord-bot@1.0.0 start
+> node index.js
+
+تم تحميل الأمر activedevbadge
+تم تحميل الأمر admin-data
+تم تحميل الأمر create_ticket_channels
+تم تحميل الأمر create-welcome
+تم تحميل الأمر force-close-tickets
+تم تحميل الأمر help
+تم تحميل الأمر ping
+تم تحميل الأمر reset-tickets
+تم تحميل الأمر servers-list
+تم تحميل الأمر setup-apply
+تم تحميل الأمر setup_attendance
+تم تحميل الأمر update
+تم تحميل الأمر vac
+تم تسجيل الدخول بنجاح
+تم إعداد البوت بنجاح
+[32minfo[39m: تم تسجيل الدخول كـ ArabPast Bot#3173 {"timestamp":"2024-11-10T22:10:06.015Z"}
+تم تسجيل الدخول كـ ArabPast Bot#3173
+[32minfo[39m: تم الاتصال بقاعدة البيانات MongoDB {"timestamp":"2024-11-10T22:10:06.413Z"}
+بدء تحديث 13 من الأوامر.
+✅ تم تحديث 13 من الأوامر بنجاح.
+[32minfo[39m: Generating daily statistics... {"timestamp":"2024-11-11T00:00:00.970Z"}
+[32minfo[39m: Button pressed: create_ticket {"timestamp":"2024-11-11T03:12:41.384Z"}
+[31merror[39m: Error creating ticket: Error creating ticket: {"critical":false,"stack":"TypeError: Cannot read properties of undefined (reading 'getString')\n    at handleCreateTicket (/home/container/index.js:635:45)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Client.<anonymous> (/home/container/index.js:354:13)","timestamp":"2024-11-11T03:12:41.742Z"}
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-11T16:21:02.203Z"}
+Starting check-in process for user: 243497989333581825
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-11T16:27:38.889Z"}
+Starting check-in process for user: 964963175705481216
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-11T17:03:24.916Z"}
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-11T17:03:31.153Z"}
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-11T19:34:14.355Z"}
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-11T19:34:18.023Z"}
+Starting check-in process for user: 1213696140612997182
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-11T19:51:17.962Z"}
+Starting check-in process for user: 939250757763477525
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-11T20:22:30.996Z"}
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-11T20:38:56.492Z"}
+[32minfo[39m: Starting automatic check-out... {"timestamp":"2024-11-11T20:58:00.208Z"}
+[32minfo[39m: Starting daily attendance report... {"timestamp":"2024-11-11T20:59:00.329Z"}
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-11T22:07:11.518Z"}
+Starting check-in process for user: 939250757763477525
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-11T23:11:53.889Z"}
+Starting check-in process for user: 1276881789738160201
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-11T23:33:14.316Z"}
+Starting check-in process for user: 804665393804869634
+[32minfo[39m: Generating daily statistics... {"timestamp":"2024-11-12T00:00:00.875Z"}
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-12T00:06:45.563Z"}
+Starting check-in process for user: 279230128922427404
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T01:07:45.537Z"}
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T01:07:56.276Z"}
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T01:08:09.710Z"}
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-12T01:08:15.135Z"}
+Starting check-in process for user: 939250757763477525
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T01:08:19.027Z"}
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T01:43:24.784Z"}
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-12T02:26:40.329Z"}
+Starting check-in process for user: 1213545544081739796
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-12T02:47:06.435Z"}
+Starting check-in process for user: 939250757763477525
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T02:59:18.199Z"}
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-12T03:15:31.529Z"}
+Starting check-in process for user: 1213545544081739796
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T03:15:36.583Z"}
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T03:26:28.141Z"}
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-12T04:04:01.793Z"}
+Starting check-in process for user: 1213545544081739796
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T04:20:45.184Z"}
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T04:22:36.683Z"}
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T05:42:53.987Z"}
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T05:43:32.807Z"}
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T05:59:36.032Z"}
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T05:59:43.311Z"}
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T05:59:49.113Z"}
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T06:00:07.419Z"}
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-12T06:00:13.967Z"}
+Starting check-in process for user: 1276881789738160201
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T06:00:18.711Z"}
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-12T06:05:48.530Z"}
+Starting check-in process for user: 939250757763477525
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-12T06:07:33.360Z"}
+Starting check-in process for user: 1213545544081739796
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T06:50:20.263Z"}
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T06:50:38.558Z"}
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T07:16:39.715Z"}
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-12T09:03:10.714Z"}
+Starting check-in process for user: 737826308918345788
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T09:27:46.340Z"}
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T09:27:51.763Z"}
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-12T09:50:24.961Z"}
+Starting check-in process for user: 1276881789738160201
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T10:10:29.035Z"}
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T10:10:33.798Z"}
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-12T10:11:44.944Z"}
+Starting check-in process for user: 804009621965504532
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-12T11:13:55.628Z"}
+Starting check-in process for user: 1276881789738160201
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T11:36:02.465Z"}
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T11:37:43.930Z"}
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T11:41:39.912Z"}
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T11:51:09.471Z"}
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-12T11:53:12.337Z"}
+Starting check-in process for user: 1213696140612997182
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-12T12:09:03.210Z"}
+Starting check-in process for user: 1276881789738160201
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-12T12:09:09.739Z"}
+Starting check-in process for user: 1276881789738160201
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T12:09:54.055Z"}
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-12T13:21:19.681Z"}
+Starting check-in process for user: 473035494792495115
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-12T13:21:43.461Z"}
+Starting check-in process for user: 1276881789738160201
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-12T13:21:56.372Z"}
+Starting check-in process for user: 1213545544081739796
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T13:28:05.633Z"}
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T13:28:19.555Z"}
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-12T13:29:27.611Z"}
+Starting check-in process for user: 1229145509881712662
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T13:39:29.889Z"}
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T14:10:37.828Z"}
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T14:54:48.006Z"}
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-12T14:54:55.540Z"}
+Starting check-in process for user: 804665393804869634
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T15:14:26.013Z"}
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T15:15:09.172Z"}
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-12T15:32:34.966Z"}
+Starting check-in process for user: 279230128922427404
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-12T15:37:56.413Z"}
+Starting check-in process for user: 817596174688714753
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T16:06:16.123Z"}
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T16:10:32.562Z"}
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-12T16:11:04.790Z"}
+Starting check-in process for user: 804665393804869634
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T16:29:25.586Z"}
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T16:29:33.568Z"}
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-12T16:38:19.045Z"}
+Starting check-in process for user: 1229145509881712662
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-12T16:38:25.871Z"}
+Starting check-in process for user: 1229145509881712662
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T16:39:14.850Z"}
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T16:43:35.813Z"}
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T16:45:48.449Z"}
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T16:55:00.022Z"}
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T17:04:51.706Z"}
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-12T17:08:14.990Z"}
+Starting check-in process for user: 473035494792495115
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-12T17:08:46.437Z"}
+Starting check-in process for user: 1276881789738160201
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T18:32:47.184Z"}
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-12T19:26:16.460Z"}
+Starting check-in process for user: 1213696140612997182
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-12T19:49:42.352Z"}
+Starting check-in process for user: 1229145509881712662
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T20:02:13.970Z"}
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-12T20:02:18.135Z"}
+Starting check-in process for user: 245061567882723329
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T20:10:18.814Z"}
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T20:14:58.185Z"}
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-12T20:52:16.608Z"}
+Starting check-in process for user: 962383711528189982
+[32minfo[39m: Starting automatic check-out... {"timestamp":"2024-11-12T20:58:00.027Z"}
+[32minfo[39m: Starting daily attendance report... {"timestamp":"2024-11-12T20:59:00.048Z"}
+Error sending daily report: DiscordAPIError[50035]: Invalid Form Body
+embeds[0].fields[1].value[BASE_TYPE_MAX_LENGTH]: Must be 1024 or fewer in length.
+    at handleErrors (/home/container/node_modules/@discordjs/rest/dist/index.js:727:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async SequentialHandler.runRequest (/home/container/node_modules/@discordjs/rest/dist/index.js:1128:23)
+    at async SequentialHandler.queueRequest (/home/container/node_modules/@discordjs/rest/dist/index.js:959:14)
+    at async _REST.request (/home/container/node_modules/@discordjs/rest/dist/index.js:1272:22)
+    at async TextChannel.send (/home/container/node_modules/discord.js/src/structures/interfaces/TextBasedChannel.js:182:15)
+    at async sendDailyReport (/home/container/cronJobs/dailyReset.js:219:5)
+    at async cron.schedule.timezone [as _execution] (/home/container/cronJobs/dailyReset.js:275:9) {
+  requestBody: {
+    files: [],
+    json: {
+      content: undefined,
+      tts: false,
+      nonce: undefined,
+      enforce_nonce: false,
+      embeds: [Array],
+      components: undefined,
+      username: undefined,
+      avatar_url: undefined,
+      allowed_mentions: undefined,
+      flags: undefined,
+      message_reference: undefined,
+      attachments: undefined,
+      sticker_ids: undefined,
+      thread_name: undefined,
+      applied_tags: undefined,
+      poll: undefined
+    }
+  },
+  rawError: {
+    message: 'Invalid Form Body',
+    code: 50035,
+    errors: { embeds: [Object] }
+  },
+  code: 50035,
+  status: 400,
+  method: 'POST',
+  url: 'https://discord.com/api/v10/channels/1303800390369935360/messages'
+}
+Error in guild update event for 𝐀𝐫𝐚𝐛𝐒𝐚𝐳𝐰𝐫𝐢: ReferenceError: updateBotPresence is not defined
+    at Client.<anonymous> (/home/container/index.js:514:9)
+    at Client.emit (node:events:507:28)
+    at GuildUpdateAction.handle (/home/container/node_modules/discord.js/src/client/actions/GuildUpdate.js:19:14)
+    at module.exports [as GUILD_UPDATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/GUILD_UPDATE.js:4:30)
+    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)
+    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)
+    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)
+    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1005:14)
+Error in guild update event for 𝐀𝐫𝐚𝐛𝐒𝐚𝐳𝐰𝐫𝐢: ReferenceError: updateBotPresence is not defined
+    at Client.<anonymous> (/home/container/index.js:514:9)
+    at Client.emit (node:events:507:28)
+    at GuildUpdateAction.handle (/home/container/node_modules/discord.js/src/client/actions/GuildUpdate.js:19:14)
+    at module.exports [as GUILD_UPDATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/GUILD_UPDATE.js:4:30)
+    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)
+    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)
+    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)
+    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1005:14)
+Error in guild update event for 𝐀𝐫𝐚𝐛𝐒𝐚𝐳𝐰𝐫𝐢: ReferenceError: updateBotPresence is not defined
+    at Client.<anonymous> (/home/container/index.js:514:9)
+    at Client.emit (node:events:507:28)
+    at GuildUpdateAction.handle (/home/container/node_modules/discord.js/src/client/actions/GuildUpdate.js:19:14)
+    at module.exports [as GUILD_UPDATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/GUILD_UPDATE.js:4:30)
+    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)
+    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)
+    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)
+    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1005:14)
+Error in guild update event for 𝐀𝐫𝐚𝐛𝐒𝐚𝐳𝐰𝐫𝐢: ReferenceError: updateBotPresence is not defined
+    at Client.<anonymous> (/home/container/index.js:514:9)
+    at Client.emit (node:events:507:28)
+    at GuildUpdateAction.handle (/home/container/node_modules/discord.js/src/client/actions/GuildUpdate.js:19:14)
+    at module.exports [as GUILD_UPDATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/GUILD_UPDATE.js:4:30)
+    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)
+    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)
+    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)
+    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1005:14)
+Error in guild update event for 𝐀𝐫𝐚𝐛𝐒𝐚𝐳𝐰𝐫𝐢: ReferenceError: updateBotPresence is not defined
+    at Client.<anonymous> (/home/container/index.js:514:9)
+    at Client.emit (node:events:507:28)
+    at GuildUpdateAction.handle (/home/container/node_modules/discord.js/src/client/actions/GuildUpdate.js:19:14)
+    at module.exports [as GUILD_UPDATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/GUILD_UPDATE.js:4:30)
+    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)
+    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)
+    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)
+    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1005:14)
+Error in guild update event for 𝐀𝐫𝐚𝐛𝐒𝐚𝐳𝐰𝐫𝐢: ReferenceError: updateBotPresence is not defined
+    at Client.<anonymous> (/home/container/index.js:514:9)
+    at Client.emit (node:events:507:28)
+    at GuildUpdateAction.handle (/home/container/node_modules/discord.js/src/client/actions/GuildUpdate.js:19:14)
+    at module.exports [as GUILD_UPDATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/GUILD_UPDATE.js:4:30)
+    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)
+    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)
+    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)
+    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1005:14)
+Error in guild update event for 𝐀𝐫𝐚𝐛𝐒𝐚𝐳𝐰𝐫𝐢: ReferenceError: updateBotPresence is not defined
+    at Client.<anonymous> (/home/container/index.js:514:9)
+    at Client.emit (node:events:507:28)
+    at GuildUpdateAction.handle (/home/container/node_modules/discord.js/src/client/actions/GuildUpdate.js:19:14)
+    at module.exports [as GUILD_UPDATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/GUILD_UPDATE.js:4:30)
+    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)
+    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)
+    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)
+    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1005:14)
+Error in guild update event for 𝐀𝐫𝐚𝐛𝐒𝐚𝐳𝐰𝐫𝐢: ReferenceError: updateBotPresence is not defined
+    at Client.<anonymous> (/home/container/index.js:514:9)
+    at Client.emit (node:events:507:28)
+    at GuildUpdateAction.handle (/home/container/node_modules/discord.js/src/client/actions/GuildUpdate.js:19:14)
+    at module.exports [as GUILD_UPDATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/GUILD_UPDATE.js:4:30)
+    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)
+    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)
+    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)
+    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1005:14)
+Error in guild update event for 𝐀𝐫𝐚𝐛𝐒𝐚𝐳𝐰𝐫𝐢: ReferenceError: updateBotPresence is not defined
+    at Client.<anonymous> (/home/container/index.js:514:9)
+    at Client.emit (node:events:507:28)
+    at GuildUpdateAction.handle (/home/container/node_modules/discord.js/src/client/actions/GuildUpdate.js:19:14)
+    at module.exports [as GUILD_UPDATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/GUILD_UPDATE.js:4:30)
+    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)
+    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)
+    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)
+    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1005:14)
+Error in guild update event for 𝐀𝐫𝐚𝐛𝐒𝐚𝐳𝐰𝐫𝐢: ReferenceError: updateBotPresence is not defined
+    at Client.<anonymous> (/home/container/index.js:514:9)
+    at Client.emit (node:events:507:28)
+    at GuildUpdateAction.handle (/home/container/node_modules/discord.js/src/client/actions/GuildUpdate.js:19:14)
+    at module.exports [as GUILD_UPDATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/GUILD_UPDATE.js:4:30)
+    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)
+    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)
+    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)
+    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1005:14)
+Error in guild update event for 𝐀𝐫𝐚𝐛𝐒𝐚𝐳𝐰𝐫𝐢: ReferenceError: updateBotPresence is not defined
+    at Client.<anonymous> (/home/container/index.js:514:9)
+    at Client.emit (node:events:507:28)
+    at GuildUpdateAction.handle (/home/container/node_modules/discord.js/src/client/actions/GuildUpdate.js:19:14)
+    at module.exports [as GUILD_UPDATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/GUILD_UPDATE.js:4:30)
+    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)
+    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)
+    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)
+    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1005:14)
+Error in guild update event for 𝐀𝐫𝐚𝐛𝐒𝐚𝐳𝐰𝐫𝐢: ReferenceError: updateBotPresence is not defined
+    at Client.<anonymous> (/home/container/index.js:514:9)
+    at Client.emit (node:events:507:28)
+    at GuildUpdateAction.handle (/home/container/node_modules/discord.js/src/client/actions/GuildUpdate.js:19:14)
+    at module.exports [as GUILD_UPDATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/GUILD_UPDATE.js:4:30)
+    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)
+    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)
+    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)
+    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1005:14)
+Error in guild update event for 𝐀𝐫𝐚𝐛𝐒𝐚𝐳𝐰𝐫𝐢: ReferenceError: updateBotPresence is not defined
+    at Client.<anonymous> (/home/container/index.js:514:9)
+    at Client.emit (node:events:507:28)
+    at GuildUpdateAction.handle (/home/container/node_modules/discord.js/src/client/actions/GuildUpdate.js:19:14)
+    at module.exports [as GUILD_UPDATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/GUILD_UPDATE.js:4:30)
+    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)
+    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)
+    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)
+    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1005:14)
+Error in guild update event for 𝐀𝐫𝐚𝐛𝐒𝐚𝐳𝐰𝐫𝐢: ReferenceError: updateBotPresence is not defined
+    at Client.<anonymous> (/home/container/index.js:514:9)
+    at Client.emit (node:events:507:28)
+    at GuildUpdateAction.handle (/home/container/node_modules/discord.js/src/client/actions/GuildUpdate.js:19:14)
+    at module.exports [as GUILD_UPDATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/GUILD_UPDATE.js:4:30)
+    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)
+    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)
+    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)
+    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1005:14)
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-12T21:21:12.236Z"}
+Starting check-in process for user: 1293308062039408650
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T21:26:21.713Z"}
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-12T21:35:26.359Z"}
+Starting check-in process for user: 939250757763477525
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T21:44:18.886Z"}
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T21:44:22.329Z"}
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-12T22:15:35.196Z"}
+Starting check-in process for user: 939250757763477525
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T22:33:50.076Z"}
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-12T22:51:03.420Z"}
+Starting check-in process for user: 972148718075797594
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-12T22:58:49.368Z"}
+Starting check-in process for user: 1111401418201518121
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T23:04:17.531Z"}
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T23:04:41.551Z"}
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-12T23:24:54.940Z"}
+Starting check-in process for user: 1213696140612997182
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T23:27:01.997Z"}
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T23:40:09.275Z"}
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T23:40:13.317Z"}
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-12T23:41:14.126Z"}
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-12T23:46:30.772Z"}
+Starting check-in process for user: 854307635850510347
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-12T23:57:51.852Z"}
+Starting check-in process for user: 1150944671938388058
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-12T23:58:35.704Z"}
+Starting check-in process for user: 1220491403784753282
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-12T23:59:01.770Z"}
+Starting check-in process for user: 1239339505740419174

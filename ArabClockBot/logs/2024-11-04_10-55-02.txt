@@ -1,0 +1,86 @@
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: '@discordjs/builders@1.9.0',
+npm WARN EBADENGINE   required: { node: '>=18' },
+npm WARN EBADENGINE   current: { node: 'v16.17.0', npm: '8.15.0' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: '@discordjs/formatters@0.5.0',
+npm WARN EBADENGINE   required: { node: '>=18' },
+npm WARN EBADENGINE   current: { node: 'v16.17.0', npm: '8.15.0' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: '@discordjs/rest@2.4.0',
+npm WARN EBADENGINE   required: { node: '>=18' },
+npm WARN EBADENGINE   current: { node: 'v16.17.0', npm: '8.15.0' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: '@discordjs/collection@2.1.1',
+npm WARN EBADENGINE   required: { node: '>=18' },
+npm WARN EBADENGINE   current: { node: 'v16.17.0', npm: '8.15.0' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: '@discordjs/util@1.1.1',
+npm WARN EBADENGINE   required: { node: '>=18' },
+npm WARN EBADENGINE   current: { node: 'v16.17.0', npm: '8.15.0' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: '@discordjs/collection@2.1.1',
+npm WARN EBADENGINE   required: { node: '>=18' },
+npm WARN EBADENGINE   current: { node: 'v16.17.0', npm: '8.15.0' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'bson@6.9.0',
+npm WARN EBADENGINE   required: { node: '>=16.20.1' },
+npm WARN EBADENGINE   current: { node: 'v16.17.0', npm: '8.15.0' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'discord.js@14.16.3',
+npm WARN EBADENGINE   required: { node: '>=18' },
+npm WARN EBADENGINE   current: { node: 'v16.17.0', npm: '8.15.0' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'helmet@8.0.0',
+npm WARN EBADENGINE   required: { node: '>=18.0.0' },
+npm WARN EBADENGINE   current: { node: 'v16.17.0', npm: '8.15.0' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'mongoose@8.7.3',
+npm WARN EBADENGINE   required: { node: '>=16.20.1' },
+npm WARN EBADENGINE   current: { node: 'v16.17.0', npm: '8.15.0' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'mongodb@6.9.0',
+npm WARN EBADENGINE   required: { node: '>=16.20.1' },
+npm WARN EBADENGINE   current: { node: 'v16.17.0', npm: '8.15.0' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'undici@6.19.8',
+npm WARN EBADENGINE   required: { node: '>=18.17' },
+npm WARN EBADENGINE   current: { node: 'v16.17.0', npm: '8.15.0' }
+npm WARN EBADENGINE }
+
+up to date, audited 167 packages in 511ms
+
+27 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+> discord-bot@1.0.0 start
+> node index.js
+
+/home/container/node_modules/undici/lib/web/fetch/response.js:527
+  ReadableStream
+  ^
+
+ReferenceError: ReadableStream is not defined
+    at Object.<anonymous> (/home/container/node_modules/undici/lib/web/fetch/response.js:527:3)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/container/node_modules/undici/lib/web/fetch/index.js:11:5)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)

@@ -1,0 +1,149 @@
+(node:21) ExperimentalWarning: CommonJS module /home/container/tmp/node-v23.1.0-linux-x64/lib/node_modules/npm/node_modules/debug/src/node.js is loading ES Module /home/container/tmp/node-v23.1.0-linux-x64/lib/node_modules/npm/node_modules/supports-color/index.js using require().
+Support for loading ES Module in require() is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+changed 1 package, and audited 86 packages in 955ms
+
+11 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+[Loader]Loading 2 applications
+[Loader][Arab Clock Bot] => Starting { type: node, dir: ArabClockBot, start_file: index.js, auto_restart: true }
+[Loader][Arab Clock Bot] NodeJS => Installing Dependencies...
+[Loader][Project Bot] => Starting { type: python3.9, dir: ProjectClock, start_file: main.py, auto_restart: false }
+[Loader][Project Bot] Python => Installing Dependencies...
+[Loader][Project Bot] Python => Found requirements.txt
+[Loader][Project Bot] Python => Installing aiohttp==3.9.5
+[Loader][Project Bot] Python => All Requirements installed. Starting...
+[Loader][Project Bot] Python => Installing aiosignal==1.3.1
+[Loader][Project Bot] Python => All Requirements installed. Starting...
+[Loader][Project Bot] Python => Installing aiosqlite==0.19.0
+[Loader][Project Bot] Python => All Requirements installed. Starting...
+[Loader][Project Bot] Python => Installing async-timeout==4.0.3
+[Loader][Project Bot] Python => All Requirements installed. Starting...
+[Loader][Project Bot] Python => Installing attrs==23.2.0
+[Loader][Project Bot] Python => All Requirements installed. Starting...
+[Loader][Project Bot] Python => Installing coloredlogs==15.0.1
+[Loader][Project Bot] Python => All Requirements installed. Starting...
+[Loader][Project Bot] Python => Installing disnake==2.9.2
+[Loader][Project Bot] Python => All Requirements installed. Starting...
+[Loader][Project Bot] Python => Installing frozenlist==1.4.1
+[Loader][Project Bot] Python => All Requirements installed. Starting...
+[Loader][Project Bot] Python => Installing greenlet==3.0.3
+[Loader][Project Bot] Python => All Requirements installed. Starting...
+[Loader][Project Bot] Python => Installing humanfriendly==10.0
+[Loader][Project Bot] Python => All Requirements installed. Starting...
+[Loader][Project Bot] Python => Installing idna==3.7
+[Loader][Project Bot] Python => All Requirements installed. Starting...
+[Loader][Project Bot] Python => Installing levenshtein==0.21.1
+[Loader][Project Bot] Python => All Requirements installed. Starting...
+[Loader][Project Bot] Python => Installing multidict==6.0.5
+[Loader][Project Bot] Python => All Requirements installed. Starting...
+[Loader][Project Bot] Python => Installing pyreadline3==3.4.1
+[Loader][Project Bot] Python => All Requirements installed. Starting...
+[Loader][Project Bot] Python => Installing python-dotenv==1.0.1
+[Loader][Project Bot] Python => All Requirements installed. Starting...
+[Loader][Project Bot] Python => Installing python-levenshtein==0.21.1
+[Loader][Project Bot] Python => All Requirements installed. Starting...
+[Loader][Project Bot] Python => Installing rapidfuzz==3.9.3
+[Loader][Project Bot] Python => All Requirements installed. Starting...
+[Loader][Project Bot] Python => Installing sqlalchemy==2.0.31
+[Loader][Project Bot] Python => All Requirements installed. Starting...
+[Loader][Project Bot] Python => Installing thefuzz==0.19.0
+[Loader][Project Bot] Python => All Requirements installed. Starting...
+[Loader][Project Bot] Python => Installing typing-extensions==4.12.2
+[Loader][Project Bot] Python => All Requirements installed. Starting...
+[Loader][Project Bot] Python => Installing yarl==1.9.4
+[Loader][Project Bot] Python => All Requirements installed. Starting...
+[Loader][Project Bot] Python => Installing pymongo==4.6.1
+[Loader][Project Bot] Python => All Requirements installed. Starting...
+[Loader][Project Bot] Python => Opening file main.py
+[Loader][Arab Clock Bot] NodeJS => Opening file index.js
+2025-02-12 17:58:11 fad99365-2473-4e30-93a7-3a923beb6c2c root[138] INFO Logging has been initialized
+Traceback (most recent call last):
+  File "/home/container/ProjectClock/main.py", line 9, in <module>
+    from timeclock import database, log
+  File "/home/container/ProjectClock/timeclock/log.py", line 75, in <module>
+    أ
+NameError: name 'أ' is not defined
+[Loader][Project Bot] => Exited... Auto-Restart: false
+[Loader][Project Bot] ERROR => Too Many Attempts... Exiting.
+node:internal/modules/cjs/loader:1249
+  throw err;
+  ^
+
+Error: Cannot find module './models/Ticket'
+Require stack:
+- /home/container/ArabClockBot/index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1246:15)
+    at Function._load (node:internal/modules/cjs/loader:1072:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:216:24)
+    at Module.require (node:internal/modules/cjs/loader:1337:12)
+    at require (node:internal/modules/helpers:139:16)
+    at Object.<anonymous> (/home/container/ArabClockBot/index.js:27:16)
+    at Module._compile (node:internal/modules/cjs/loader:1572:14)
+    at Object..js (node:internal/modules/cjs/loader:1709:10)
+    at Module.load (node:internal/modules/cjs/loader:1315:32) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/home/container/ArabClockBot/index.js' ]
+}
+
+Node.js v23.1.0
+[Loader][Arab Clock Bot] => Exited... Auto-Restart: true
+[Loader][Arab Clock Bot] WARN => Auto-Restarting... Attempt 1
+[Loader][Arab Clock Bot] => Starting { type: node, dir: ArabClockBot, start_file: index.js, auto_restart: true }
+[Loader][Arab Clock Bot] NodeJS => Installing Dependencies...
+[Loader][Arab Clock Bot] NodeJS => Opening file index.js
+node:internal/modules/cjs/loader:1249
+  throw err;
+  ^
+
+Error: Cannot find module './models/Ticket'
+Require stack:
+- /home/container/ArabClockBot/index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1246:15)
+    at Function._load (node:internal/modules/cjs/loader:1072:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:216:24)
+    at Module.require (node:internal/modules/cjs/loader:1337:12)
+    at require (node:internal/modules/helpers:139:16)
+    at Object.<anonymous> (/home/container/ArabClockBot/index.js:27:16)
+    at Module._compile (node:internal/modules/cjs/loader:1572:14)
+    at Object..js (node:internal/modules/cjs/loader:1709:10)
+    at Module.load (node:internal/modules/cjs/loader:1315:32) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/home/container/ArabClockBot/index.js' ]
+}
+
+Node.js v23.1.0
+[Loader][Arab Clock Bot] => Exited... Auto-Restart: true
+[Loader][Arab Clock Bot] WARN => Auto-Restarting... Attempt 2
+[Loader][Arab Clock Bot] => Starting { type: node, dir: ArabClockBot, start_file: index.js, auto_restart: true }
+[Loader][Arab Clock Bot] NodeJS => Installing Dependencies...
+[Loader][Arab Clock Bot] NodeJS => Opening file index.js
+node:internal/modules/cjs/loader:1249
+  throw err;
+  ^
+
+Error: Cannot find module './models/Ticket'
+Require stack:
+- /home/container/ArabClockBot/index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1246:15)
+    at Function._load (node:internal/modules/cjs/loader:1072:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:216:24)
+    at Module.require (node:internal/modules/cjs/loader:1337:12)
+    at require (node:internal/modules/helpers:139:16)
+    at Object.<anonymous> (/home/container/ArabClockBot/index.js:27:16)
+    at Module._compile (node:internal/modules/cjs/loader:1572:14)
+    at Object..js (node:internal/modules/cjs/loader:1709:10)
+    at Module.load (node:internal/modules/cjs/loader:1315:32) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/home/container/ArabClockBot/index.js' ]
+}
+
+Node.js v23.1.0
+[Loader][Arab Clock Bot] => Exited... Auto-Restart: true
+[Loader][Arab Clock Bot] ERROR => Too Many Attempts... Exiting.

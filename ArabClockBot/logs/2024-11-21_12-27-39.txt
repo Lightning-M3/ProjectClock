@@ -1,0 +1,52 @@
+(node:21) ExperimentalWarning: CommonJS module /home/container/tmp/node-v23.1.0-linux-x64/lib/node_modules/npm/node_modules/debug/src/node.js is loading ES Module /home/container/tmp/node-v23.1.0-linux-x64/lib/node_modules/npm/node_modules/supports-color/index.js using require().
+Support for loading ES Module in require() is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+up to date, audited 167 packages in 1s
+
+27 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+> discord-bot@1.0.0 start
+> node index.js
+
+تم تحميل الأمر activedevbadge
+تم تحميل الأمر admin-data
+تم تحميل الأمر force-checkout
+تم تحميل الأمر force-close-tickets
+تم تحميل الأمر help
+تم تحميل الأمر leaderboard
+تم تحميل الأمر open-sessions
+تم تحميل الأمر ping
+تم تحميل الأمر points
+تم تحميل الأمر reset-tickets
+تم تحميل الأمر servers-list
+تم تحميل الأمر setup
+تم تحميل الأمر stats
+تم تحميل الأمر update
+تم تحميل الأمر vac
+تم تسجيل الدخول بنجاح
+تم إعداد البوت بنجاح
+[32minfo[39m: تم الاتصال بقاعدة البيانات MongoDB {"timestamp":"2024-11-21T12:27:43.021Z"}
+[32minfo[39m: تم تسجيل الدخول كـ ArabPast Bot#3173 {"timestamp":"2024-11-21T12:27:43.134Z"}
+تم تسجيل الدخول كـ ArabPast Bot#3173
+بدء تحديث 15 من الأوامر.
+✅ تم تحديث 15 من الأوامر بنجاح.
+تمت إزالة البوت من سيرفر: Lightning | برق's server
+تم حذف جميع بيانات السيرفر Lightning | برق's server بنجاح
+[32minfo[39m: تم إضافة البوت إلى سيرفر جديد: Lightning | برق's server {"timestamp":"2024-11-21T12:28:30.557Z"}
+[32minfo[39m: بدء إعداد السيرفر Lightning | برق's server {"timestamp":"2024-11-21T12:28:30.558Z"}
+[32minfo[39m: تم إضافة البوت إلى سيرفر جديد: Lightning | برق's server {"timestamp":"2024-11-21T12:28:30.559Z"}
+[32minfo[39m: بدء إعداد السيرفر Lightning | برق's server {"timestamp":"2024-11-21T12:28:30.559Z"}
+[32minfo[39m: السيرفر Lightning | برق's server تم إعداده مسبقاً {"timestamp":"2024-11-21T12:28:30.668Z"}
+[32minfo[39m: تم إنشاء قناة الترحيب في السيرفر Lightning | برق's server {"timestamp":"2024-11-21T12:28:30.849Z"}
+[32minfo[39m: تم إنشاء قناة السجلات في السيرفر Lightning | برق's server {"timestamp":"2024-11-21T12:28:31.062Z"}
+[32minfo[39m: تم إكمال إعداد السيرفر Lightning | برق's server بنجاح {"timestamp":"2024-11-21T12:28:31.181Z"}
+[32minfo[39m: تم إنشاء قناة الترحيب في السيرفر Lightning | برق's server {"timestamp":"2024-11-21T12:28:31.269Z"}
+[32minfo[39m: تم إكمال إعداد السيرفر Lightning | برق's server بنجاح {"timestamp":"2024-11-21T12:28:31.377Z"}
+[32minfo[39m: تم إعداد السيرفر: Lightning | برق's server {"timestamp":"2024-11-21T12:28:31.442Z"}
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-21T12:35:49.358Z"}
+Starting check-in process for user: 743432232529559684
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-21T12:36:10.577Z"}

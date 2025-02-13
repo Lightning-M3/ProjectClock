@@ -1,0 +1,70 @@
+(node:21) ExperimentalWarning: CommonJS module /home/container/tmp/node-v23.1.0-linux-x64/lib/node_modules/npm/node_modules/debug/src/node.js is loading ES Module /home/container/tmp/node-v23.1.0-linux-x64/lib/node_modules/npm/node_modules/supports-color/index.js using require().
+Support for loading ES Module in require() is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+up to date, audited 167 packages in 1s
+
+27 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+> discord-bot@1.0.0 start
+> node index.js
+
+تم تحميل الأمر activedevbadge
+تم تحميل الأمر admin-data
+تم تحميل الأمر create_ticket_channels
+تم تحميل الأمر create-welcome
+تم تحميل الأمر force-checkout
+تم تحميل الأمر force-close-tickets
+تم تحميل الأمر help
+تم تحميل الأمر leaderboard
+تم تحميل الأمر open-sessions
+تم تحميل الأمر ping
+تم تحميل الأمر points
+تم تحميل الأمر reset-tickets
+تم تحميل الأمر servers-list
+تم تحميل الأمر setup-apply
+تم تحميل الأمر setup_attendance
+تم تحميل الأمر stats
+تم تحميل الأمر update
+تم تحميل الأمر vac
+تم تسجيل الدخول بنجاح
+تم إعداد البوت بنجاح
+[32minfo[39m: تم تسجيل الدخول كـ ArabPast Bot#3173 {"timestamp":"2024-11-19T13:17:09.439Z"}
+تم تسجيل الدخول كـ ArabPast Bot#3173
+[32minfo[39m: تم الاتصال بقاعدة البيانات MongoDB {"timestamp":"2024-11-19T13:17:09.480Z"}
+بدء تحديث 18 من الأوامر.
+✅ تم تحديث 18 من الأوامر بنجاح.
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-19T14:20:52.794Z"}
+Starting check-in process for user: 804009621965504532
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-19T14:29:52.483Z"}
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-19T15:46:54.590Z"}
+Starting check-in process for user: 804009621965504532
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-19T16:16:33.314Z"}
+انقطع الاتصال بقاعدة البيانات. محاولة إعادة الاتصال...
+تم إعادة الاتصال بنجاح
+[32minfo[39m: Starting automatic check-out... {"timestamp":"2024-11-19T20:58:00.032Z"}
+[32minfo[39m: Starting daily attendance report... {"timestamp":"2024-11-19T20:59:00.076Z"}
+[32minfo[39m: Generating daily statistics... {"timestamp":"2024-11-20T00:00:00.592Z"}
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-20T00:18:02.940Z"}
+Starting check-in process for user: 817596174688714753
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-20T00:24:08.583Z"}
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-20T01:56:41.626Z"}
+Starting check-in process for user: 1263678760939425802
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-20T04:04:36.287Z"}
+Starting check-in process for user: 855169577473933322
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-20T04:27:59.592Z"}
+Starting check-in process for user: 1211372820639129651
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-20T06:33:21.762Z"}
+Starting check-in process for user: 1156695659156615200
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-20T09:22:35.809Z"}
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-20T10:22:10.741Z"}
+[32minfo[39m: Button pressed: create_ticket {"timestamp":"2024-11-20T13:29:39.600Z"}
+[32minfo[39m: Button pressed: create_ticket {"timestamp":"2024-11-20T13:29:44.629Z"}
+[32minfo[39m: Button pressed: create_ticket {"timestamp":"2024-11-20T13:31:20.611Z"}
+[32minfo[39m: Button pressed: create_ticket {"timestamp":"2024-11-20T13:31:33.586Z"}
+[32minfo[39m: Button pressed: create_ticket {"timestamp":"2024-11-20T13:33:42.571Z"}
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-20T13:41:27.534Z"}
+Starting check-in process for user: 1213545544081739796

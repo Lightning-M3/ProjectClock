@@ -1,0 +1,51 @@
+(node:21) ExperimentalWarning: CommonJS module /home/container/tmp/node-v23.1.0-linux-x64/lib/node_modules/npm/node_modules/debug/src/node.js is loading ES Module /home/container/tmp/node-v23.1.0-linux-x64/lib/node_modules/npm/node_modules/supports-color/index.js using require().
+Support for loading ES Module in require() is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+up to date, audited 167 packages in 1s
+
+27 packages are looking for funding
+  run `npm fund` for details
+
+3 vulnerabilities (2 moderate, 1 high)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+
+> discord-bot@1.0.0 start
+> node index.js
+
+[32minfo[39m: تم تحميل الأمر: admin-data {"timestamp":"2025-01-08T21:00:05.826Z"}
+[32minfo[39m: تم تحميل الأمر: help {"timestamp":"2025-01-08T21:00:05.829Z"}
+[32minfo[39m: تم تحميل الأمر: open-sessions {"timestamp":"2025-01-08T21:00:05.830Z"}
+[32minfo[39m: تم تحميل الأمر: ping {"timestamp":"2025-01-08T21:00:05.831Z"}
+[32minfo[39m: تم تحميل الأمر: servers-list {"timestamp":"2025-01-08T21:00:05.832Z"}
+[32minfo[39m: تم تحميل الأمر: setup {"timestamp":"2025-01-08T21:00:05.835Z"}
+[32minfo[39m: تم تحميل الأمر: update {"timestamp":"2025-01-08T21:00:05.836Z"}
+تم تسجيل الدخول بنجاح
+تم إعداد البوت بنجاح
+[32minfo[39m: تم الاتصال بقاعدة البيانات MongoDB {"timestamp":"2025-01-08T21:00:07.061Z"}
+[32minfo[39m: تم تسجيل الدخول كـ Arab Clock#3173 {"timestamp":"2025-01-08T21:00:07.072Z"}
+تم تسجيل الدخول كـ Arab Clock#3173
+بدء تحديث 7 من الأوامر.
+✅ تم تحديث 7 من الأوامر بنجاح.
+Starting check-in process for user: 1303030366415884300
+Starting check-in process for user: 1071055395348566086
+Starting check-in process for user: 1083040605246083153
+Starting check-in process for user: 1083040605246083153
+Starting check-in process for user: 859109109198225408
+Starting check-in process for user: 1267493577571696694
+Starting check-in process for user: 701689845612937288
+Starting check-in process for user: 824352544507035659
+Starting check-in process for user: 1081392125574393987
+Starting check-in process for user: 1253773297339072553
+Starting check-in process for user: 718426232706039818
+Starting check-in process for user: 1081392125574393987
+Starting check-in process for user: 1071055395348566086
+Starting check-in process for user: 1267493577571696694
+Starting check-in process for user: 859109109198225408
+Starting check-in process for user: 1083040605246083153
+[32minfo[39m: Starting automatic check-out... {"timestamp":"2025-01-09T20:58:00.121Z"}
+[32minfo[39m: Starting daily attendance report... {"timestamp":"2025-01-09T20:59:00.142Z"}

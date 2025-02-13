@@ -1,0 +1,43 @@
+(node:21) ExperimentalWarning: CommonJS module /home/container/tmp/node-v23.1.0-linux-x64/lib/node_modules/npm/node_modules/debug/src/node.js is loading ES Module /home/container/tmp/node-v23.1.0-linux-x64/lib/node_modules/npm/node_modules/supports-color/index.js using require().
+Support for loading ES Module in require() is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+up to date, audited 167 packages in 1s
+
+27 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+> discord-bot@1.0.0 start
+> node index.js
+
+تم تحميل الأمر activedevbadge
+تم تحميل الأمر admin-data
+تم تحميل الأمر create_ticket_channels
+تم تحميل الأمر create-welcome
+تم تحميل الأمر force-close-tickets
+تم تحميل الأمر help
+تم تحميل الأمر ping
+تم تحميل الأمر reset-tickets
+تم تحميل الأمر setup_attendance
+تم تحميل الأمر update
+تم تحميل الأمر vac
+تم تسجيل الدخول بنجاح
+تم إعداد البوت بنجاح
+[32minfo[39m: تم تسجيل الدخول كـ ArabPast Bot#3173 {"timestamp":"2024-11-05T15:48:07.496Z"}
+تم تسجيل الدخول كـ ArabPast Bot#3173
+[32minfo[39m: تم الاتصال بقاعدة البيانات MongoDB {"timestamp":"2024-11-05T15:48:07.912Z"}
+بدء تحديث 11 من الأوامر.
+✅ تم تحديث 11 من الأوامر بنجاح.
+رتبة مسجل حضوره موجودة بالفعل
+تم إنشاء رتبة مسجل حضوره
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-05T15:50:20.975Z"}
+Starting check-in process for user: 743432232529559684
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-05T15:50:30.691Z"}
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-05T15:53:37.908Z"}
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-05T16:04:38.737Z"}
+Starting check-in process for user: 606910571887198208
+[32minfo[39m: Button pressed: check_out {"timestamp":"2024-11-05T16:04:55.800Z"}
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-05T16:14:44.258Z"}
+Starting check-in process for user: 803468870224052254

@@ -1,0 +1,42 @@
+(node:21) ExperimentalWarning: CommonJS module /home/container/tmp/node-v23.1.0-linux-x64/lib/node_modules/npm/node_modules/debug/src/node.js is loading ES Module /home/container/tmp/node-v23.1.0-linux-x64/lib/node_modules/npm/node_modules/supports-color/index.js using require().
+Support for loading ES Module in require() is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+up to date, audited 167 packages in 1s
+
+27 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+> discord-bot@1.0.0 start
+> node index.js
+
+تم تحميل الأمر activedevbadge
+تم تحميل الأمر admin-data
+تم تحميل الأمر create_ticket_channels
+تم تحميل الأمر create-welcome
+تم تحميل الأمر force-checkout
+تم تحميل الأمر force-close-tickets
+تم تحميل الأمر help
+تم تحميل الأمر leaderboard
+تم تحميل الأمر open-sessions
+تم تحميل الأمر ping
+تم تحميل الأمر points
+تم تحميل الأمر reset-tickets
+تم تحميل الأمر servers-list
+تم تحميل الأمر setup-apply
+تم تحميل الأمر setup_attendance
+تم تحميل الأمر stats
+تم تحميل الأمر update
+تم تحميل الأمر vac
+تم تسجيل الدخول بنجاح
+تم إعداد البوت بنجاح
+[32minfo[39m: تم تسجيل الدخول كـ ArabPast Bot#3173 {"timestamp":"2024-11-19T12:39:32.465Z"}
+تم تسجيل الدخول كـ ArabPast Bot#3173
+[32minfo[39m: تم الاتصال بقاعدة البيانات MongoDB {"timestamp":"2024-11-19T12:39:32.483Z"}
+بدء تحديث 18 من الأوامر.
+✅ تم تحديث 18 من الأوامر بنجاح.
+[32minfo[39m: Button pressed: check_in {"timestamp":"2024-11-19T12:39:39.140Z"}
+Starting check-in process for user: 743432232529559684
+[31merror[39m: Error in check-in: Error in check-in: {"critical":false,"stack":"DiscordAPIError[10062]: Unknown interaction\n    at handleErrors (/home/container/node_modules/@discordjs/rest/dist/index.js:727:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async BurstHandler.runRequest (/home/container/node_modules/@discordjs/rest/dist/index.js:831:23)\n    at async _REST.request (/home/container/node_modules/@discordjs/rest/dist/index.js:1272:22)\n    at async ButtonInteraction.reply (/home/container/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:115:5)\n    at async handleCheckIn (/home/container/index.js:748:9)\n    at async Client.<anonymous> (/home/container/index.js:316:17)","timestamp":"2024-11-19T12:39:39.380Z"}

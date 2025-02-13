@@ -1,0 +1,373 @@
+(node:21) ExperimentalWarning: CommonJS module /home/container/tmp/node-v23.1.0-linux-x64/lib/node_modules/npm/node_modules/debug/src/node.js is loading ES Module /home/container/tmp/node-v23.1.0-linux-x64/lib/node_modules/npm/node_modules/supports-color/index.js using require().
+Support for loading ES Module in require() is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+up to date, audited 167 packages in 2s
+
+27 packages are looking for funding
+  run `npm fund` for details
+
+7 vulnerabilities (4 moderate, 2 high, 1 critical)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+
+> discord-bot@1.0.0 start
+> node index.js
+
+[32minfo[39m: تم تحميل الأمر: admin-data {"timestamp":"2025-02-06T21:00:06.067Z"}
+[32minfo[39m: تم تحميل الأمر: help {"timestamp":"2025-02-06T21:00:06.070Z"}
+[32minfo[39m: تم تحميل الأمر: open-sessions {"timestamp":"2025-02-06T21:00:06.071Z"}
+[32minfo[39m: تم تحميل الأمر: ping {"timestamp":"2025-02-06T21:00:06.072Z"}
+[32minfo[39m: تم تحميل الأمر: servers-list {"timestamp":"2025-02-06T21:00:06.073Z"}
+[32minfo[39m: تم تحميل الأمر: setup {"timestamp":"2025-02-06T21:00:06.076Z"}
+[32minfo[39m: تم تحميل الأمر: update {"timestamp":"2025-02-06T21:00:06.077Z"}
+تم تسجيل الدخول بنجاح
+تم إعداد البوت بنجاح
+[32minfo[39m: تم تسجيل الدخول كـ Arab Clock#3173 {"timestamp":"2025-02-06T21:00:07.107Z"}
+تم تسجيل الدخول كـ Arab Clock#3173
+[32minfo[39m: تم الاتصال بقاعدة البيانات MongoDB {"timestamp":"2025-02-06T21:00:07.348Z"}
+بدء تحديث 7 من الأوامر.
+✅ تم تحديث 7 من الأوامر بنجاح.
+Starting check-in process for user: 1261622184129069160
+Starting check-in process for user: 884895549810163804
+Starting check-in process for user: 1325289715422986242
+Starting check-in process for user: 1328823740401717310
+Starting check-in process for user: 855040955703230505
+Starting check-in process for user: 1176293094719766558
+Starting check-in process for user: 1240419298514833482
+Starting check-in process for user: 884895549810163804
+[32minfo[39m: تم إضافة البوت إلى سيرفر جديد: Arab-Breath {"timestamp":"2025-02-06T22:19:09.435Z"}
+[33mwarn[39m: تم تجاهل محاولة إعداد السيرفر Arab-Breath بسبب التكرار السريع {"timestamp":"2025-02-06T22:19:09.447Z"}
+[32minfo[39m: بدء إعداد السيرفر Arab-Breath {"timestamp":"2025-02-06T22:19:09.547Z"}
+[31merror[39m: خطأ أثناء إعداد السيرفر Arab-Breath: خطأ أثناء إعداد السيرفر Arab-Breath: {"critical":false,"stack":"ReferenceError: setupGuild is not defined\n    at Client.<anonymous> (/home/container/index.js:373:9)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-02-06T22:19:09.548Z"}
+[32minfo[39m: محاولة إعادة إعداد السيرفر Arab-Breath {"timestamp":"2025-02-06T22:19:14.546Z"}
+[31merror[39m: فشل في إعادة إعداد السيرفر Arab-Breath: فشل في إعادة إعداد السيرفر Arab-Breath: {"critical":false,"stack":"ReferenceError: setupGuild is not defined\n    at Timeout._onTimeout (/home/container/index.js:1645:17)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-02-06T22:19:14.546Z"}
+[32minfo[39m: محاولة إعادة إعداد السيرفر Arab-Breath {"timestamp":"2025-02-06T22:19:14.548Z"}
+[31merror[39m: فشلت محاولة إعادة إعداد السيرفر Arab-Breath: فشلت محاولة إعادة إعداد السيرفر Arab-Breath: {"critical":false,"stack":"ReferenceError: setupGuild is not defined\n    at Timeout._onTimeout (/home/container/index.js:382:21)\n    at listOnTimeout (node:internal/timers:614:17)\n    at process.processTimers (node:internal/timers:549:7)","timestamp":"2025-02-06T22:19:14.549Z"}
+[31merror[39m: Uncaught Exception: Uncaught Exception: {"critical":true,"stack":"TypeError: Cannot read properties of undefined (reading 'startsWith')\n    at Client.<anonymous> (/home/container/index.js:1882:37)\n    at Client.emit (node:events:519:35)\n    at InteractionCreateAction.handle (/home/container/node_modules/discord.js/src/client/actions/InteractionCreate.js:97:12)\n    at module.exports [as INTERACTION_CREATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)\n    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)\n    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)\n    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)\n    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1005:14)","timestamp":"2025-02-06T22:20:01.525Z"}
+[31merror[39m: Uncaught Exception: Uncaught Exception: {"critical":true,"stack":"TypeError: Cannot read properties of undefined (reading 'startsWith')\n    at Client.<anonymous> (/home/container/index.js:1882:37)\n    at Client.emit (node:events:519:35)\n    at InteractionCreateAction.handle (/home/container/node_modules/discord.js/src/client/actions/InteractionCreate.js:97:12)\n    at module.exports [as INTERACTION_CREATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)\n    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)\n    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)\n    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)\n    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1005:14)","timestamp":"2025-02-06T22:22:14.718Z"}
+[31merror[39m: Uncaught Exception: Uncaught Exception: {"critical":true,"stack":"TypeError: Cannot read properties of undefined (reading 'startsWith')\n    at Client.<anonymous> (/home/container/index.js:1882:37)\n    at Client.emit (node:events:519:35)\n    at InteractionCreateAction.handle (/home/container/node_modules/discord.js/src/client/actions/InteractionCreate.js:97:12)\n    at module.exports [as INTERACTION_CREATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)\n    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)\n    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)\n    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)\n    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1005:14)","timestamp":"2025-02-06T22:22:31.912Z"}
+[31merror[39m: Uncaught Exception: Uncaught Exception: {"critical":true,"stack":"TypeError: Cannot read properties of undefined (reading 'startsWith')\n    at Client.<anonymous> (/home/container/index.js:1882:37)\n    at Client.emit (node:events:519:35)\n    at InteractionCreateAction.handle (/home/container/node_modules/discord.js/src/client/actions/InteractionCreate.js:97:12)\n    at module.exports [as INTERACTION_CREATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)\n    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)\n    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)\n    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)\n    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1005:14)","timestamp":"2025-02-06T22:22:40.946Z"}
+[31merror[39m: Uncaught Exception: Uncaught Exception: {"critical":true,"stack":"TypeError: Cannot read properties of undefined (reading 'startsWith')\n    at Client.<anonymous> (/home/container/index.js:1882:37)\n    at Client.emit (node:events:519:35)\n    at InteractionCreateAction.handle (/home/container/node_modules/discord.js/src/client/actions/InteractionCreate.js:97:12)\n    at module.exports [as INTERACTION_CREATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)\n    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)\n    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)\n    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)\n    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1005:14)","timestamp":"2025-02-06T22:23:28.149Z"}
+تمت إزالة البوت من سيرفر: Arab-Breath
+تم حذف جميع بيانات السيرفر Arab-Breath بنجاح
+[32minfo[39m: تم إضافة البوت إلى سيرفر جديد: s server {"timestamp":"2025-02-06T22:24:00.133Z"}
+[33mwarn[39m: تم تجاهل محاولة إعداد السيرفر s server بسبب التكرار السريع {"timestamp":"2025-02-06T22:24:00.134Z"}
+[32minfo[39m: بدء إعداد السيرفر s server {"timestamp":"2025-02-06T22:24:00.231Z"}
+[31merror[39m: خطأ أثناء إعداد السيرفر s server: خطأ أثناء إعداد السيرفر s server: {"critical":false,"stack":"ReferenceError: setupGuild is not defined\n    at Client.<anonymous> (/home/container/index.js:373:9)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-02-06T22:24:00.232Z"}
+[32minfo[39m: محاولة إعادة إعداد السيرفر s server {"timestamp":"2025-02-06T22:24:05.232Z"}
+[31merror[39m: فشل في إعادة إعداد السيرفر s server: فشل في إعادة إعداد السيرفر s server: {"critical":false,"stack":"ReferenceError: setupGuild is not defined\n    at Timeout._onTimeout (/home/container/index.js:1645:17)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-02-06T22:24:05.232Z"}
+[32minfo[39m: محاولة إعادة إعداد السيرفر s server {"timestamp":"2025-02-06T22:24:05.233Z"}
+[31merror[39m: فشلت محاولة إعادة إعداد السيرفر s server: فشلت محاولة إعادة إعداد السيرفر s server: {"critical":false,"stack":"ReferenceError: setupGuild is not defined\n    at Timeout._onTimeout (/home/container/index.js:382:21)\n    at listOnTimeout (node:internal/timers:614:17)\n    at process.processTimers (node:internal/timers:549:7)","timestamp":"2025-02-06T22:24:05.233Z"}
+Starting check-in process for user: 1176293094719766558
+Starting check-in process for user: 1261841996327292948
+Starting check-in process for user: 983311962836443206
+Starting check-in process for user: 983311962836443206
+Starting check-in process for user: 766448919558357072
+Starting check-in process for user: 1261622184129069160
+Starting check-in process for user: 1006858146641362994
+Starting check-in process for user: 1328823740401717310
+Starting check-in process for user: 1201003688005742714
+Starting check-in process for user: 853044365285785630
+Starting check-in process for user: 987423620651425923
+Starting check-in process for user: 983311962836443206
+Starting check-in process for user: 1201003688005742714
+Starting check-in process for user: 1201003688005742714
+[32minfo[39m: تم إضافة البوت إلى سيرفر جديد: ArabHollow {"timestamp":"2025-02-07T03:53:03.843Z"}
+[33mwarn[39m: تم تجاهل محاولة إعداد السيرفر ArabHollow بسبب التكرار السريع {"timestamp":"2025-02-07T03:53:03.848Z"}
+[32minfo[39m: بدء إعداد السيرفر ArabHollow {"timestamp":"2025-02-07T03:53:03.949Z"}
+[31merror[39m: خطأ أثناء إعداد السيرفر ArabHollow: خطأ أثناء إعداد السيرفر ArabHollow: {"critical":false,"stack":"ReferenceError: setupGuild is not defined\n    at Client.<anonymous> (/home/container/index.js:373:9)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-02-07T03:53:03.950Z"}
+[32minfo[39m: محاولة إعادة إعداد السيرفر ArabHollow {"timestamp":"2025-02-07T03:53:08.951Z"}
+[31merror[39m: فشلت محاولة إعادة إعداد السيرفر ArabHollow: فشلت محاولة إعادة إعداد السيرفر ArabHollow: {"critical":false,"stack":"ReferenceError: setupGuild is not defined\n    at Timeout._onTimeout (/home/container/index.js:382:21)\n    at listOnTimeout (node:internal/timers:614:17)\n    at process.processTimers (node:internal/timers:549:7)","timestamp":"2025-02-07T03:53:08.952Z"}
+[32minfo[39m: محاولة إعادة إعداد السيرفر ArabHollow {"timestamp":"2025-02-07T03:53:08.959Z"}
+[31merror[39m: فشل في إعادة إعداد السيرفر ArabHollow: فشل في إعادة إعداد السيرفر ArabHollow: {"critical":false,"stack":"ReferenceError: setupGuild is not defined\n    at Timeout._onTimeout (/home/container/index.js:1645:17)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-02-07T03:53:08.959Z"}
+[31merror[39m: Uncaught Exception: Uncaught Exception: {"critical":true,"stack":"TypeError: Cannot read properties of undefined (reading 'startsWith')\n    at Client.<anonymous> (/home/container/index.js:1882:37)\n    at Client.emit (node:events:519:35)\n    at InteractionCreateAction.handle (/home/container/node_modules/discord.js/src/client/actions/InteractionCreate.js:97:12)\n    at module.exports [as INTERACTION_CREATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)\n    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)\n    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)\n    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)\n    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1005:14)","timestamp":"2025-02-07T03:55:43.257Z"}
+Error updating bot presence: TypeError: Cannot read properties of undefined (reading 'setPresence')
+    at updateBotPresence (/home/container/utils/botPresence.js:3:23)
+    at Client.<anonymous> (/home/container/index.js:452:15)
+    at Client.emit (node:events:507:28)
+    at GuildUpdateAction.handle (/home/container/node_modules/discord.js/src/client/actions/GuildUpdate.js:19:14)
+    at module.exports [as GUILD_UPDATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/GUILD_UPDATE.js:4:30)
+    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)
+    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)
+    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)
+    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+[31merror[39m: Uncaught Exception: Uncaught Exception: {"critical":true,"stack":"TypeError: Cannot read properties of undefined (reading 'startsWith')\n    at Client.<anonymous> (/home/container/index.js:1882:37)\n    at Client.emit (node:events:519:35)\n    at InteractionCreateAction.handle (/home/container/node_modules/discord.js/src/client/actions/InteractionCreate.js:97:12)\n    at module.exports [as INTERACTION_CREATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)\n    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)\n    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)\n    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)\n    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1005:14)","timestamp":"2025-02-07T03:58:55.421Z"}
+Starting check-in process for user: 473035494792495115
+Starting check-in process for user: 473035494792495115
+Starting check-in process for user: 473035494792495115
+Starting check-in process for user: 1261622184129069160
+Starting check-in process for user: 1307958131136921620
+Starting check-in process for user: 1212854788677566605
+Starting check-in process for user: 1325289715422986242
+Starting check-in process for user: 1261622184129069160
+Starting check-in process for user: 610245223850967042
+Starting check-in process for user: 822484996307550228
+Starting check-in process for user: 744697855607963690
+Starting check-in process for user: 884895549810163804
+Starting check-in process for user: 1261622184129069160
+Starting check-in process for user: 1006858146641362994
+Starting check-in process for user: 1253230413585842209
+[31merror[39m: Uncaught Exception: Uncaught Exception: {"critical":true,"stack":"TypeError: Cannot read properties of undefined (reading 'startsWith')\n    at Client.<anonymous> (/home/container/index.js:1882:37)\n    at Client.emit (node:events:519:35)\n    at InteractionCreateAction.handle (/home/container/node_modules/discord.js/src/client/actions/InteractionCreate.js:97:12)\n    at module.exports [as INTERACTION_CREATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)\n    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)\n    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)\n    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)\n    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1005:14)","timestamp":"2025-02-07T08:18:21.856Z"}
+[31merror[39m: Uncaught Exception: Uncaught Exception: {"critical":true,"stack":"TypeError: Cannot read properties of undefined (reading 'startsWith')\n    at Client.<anonymous> (/home/container/index.js:1882:37)\n    at Client.emit (node:events:519:35)\n    at InteractionCreateAction.handle (/home/container/node_modules/discord.js/src/client/actions/InteractionCreate.js:97:12)\n    at module.exports [as INTERACTION_CREATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)\n    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)\n    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)\n    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)\n    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1005:14)","timestamp":"2025-02-07T08:18:31.405Z"}
+[31merror[39m: Uncaught Exception: Uncaught Exception: {"critical":true,"stack":"TypeError: Cannot read properties of undefined (reading 'startsWith')\n    at Client.<anonymous> (/home/container/index.js:1882:37)\n    at Client.emit (node:events:519:35)\n    at InteractionCreateAction.handle (/home/container/node_modules/discord.js/src/client/actions/InteractionCreate.js:97:12)\n    at module.exports [as INTERACTION_CREATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)\n    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)\n    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)\n    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)\n    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1005:14)","timestamp":"2025-02-07T08:18:46.646Z"}
+[31merror[39m: Uncaught Exception: Uncaught Exception: {"critical":true,"stack":"TypeError: Cannot read properties of undefined (reading 'startsWith')\n    at Client.<anonymous> (/home/container/index.js:1882:37)\n    at Client.emit (node:events:519:35)\n    at InteractionCreateAction.handle (/home/container/node_modules/discord.js/src/client/actions/InteractionCreate.js:97:12)\n    at module.exports [as INTERACTION_CREATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)\n    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)\n    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)\n    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)\n    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1005:14)","timestamp":"2025-02-07T08:18:58.093Z"}
+[31merror[39m: Uncaught Exception: Uncaught Exception: {"critical":true,"stack":"TypeError: Cannot read properties of undefined (reading 'startsWith')\n    at Client.<anonymous> (/home/container/index.js:1882:37)\n    at Client.emit (node:events:519:35)\n    at InteractionCreateAction.handle (/home/container/node_modules/discord.js/src/client/actions/InteractionCreate.js:97:12)\n    at module.exports [as INTERACTION_CREATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)\n    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)\n    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)\n    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)\n    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1005:14)","timestamp":"2025-02-07T08:35:22.313Z"}
+Starting check-in process for user: 960990297159004200
+Starting check-in process for user: 1325289715422986242
+Error updating bot presence: TypeError: Cannot read properties of undefined (reading 'setPresence')
+    at updateBotPresence (/home/container/utils/botPresence.js:3:23)
+    at Client.<anonymous> (/home/container/index.js:452:15)
+    at Client.emit (node:events:507:28)
+    at GuildUpdateAction.handle (/home/container/node_modules/discord.js/src/client/actions/GuildUpdate.js:19:14)
+    at module.exports [as GUILD_UPDATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/GUILD_UPDATE.js:4:30)
+    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)
+    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)
+    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)
+    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+Starting check-in process for user: 1086442717451657297
+Starting check-in process for user: 1324769421884915882
+Starting check-in process for user: 1321449716742881314
+Starting check-in process for user: 822484996307550228
+Starting check-in process for user: 884895549810163804
+Starting check-in process for user: 983311962836443206
+Starting check-in process for user: 1321449716742881314
+Error updating bot presence: TypeError: Cannot read properties of undefined (reading 'setPresence')
+    at updateBotPresence (/home/container/utils/botPresence.js:3:23)
+    at Client.<anonymous> (/home/container/index.js:452:15)
+    at Client.emit (node:events:507:28)
+    at GuildUpdateAction.handle (/home/container/node_modules/discord.js/src/client/actions/GuildUpdate.js:19:14)
+    at module.exports [as GUILD_UPDATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/GUILD_UPDATE.js:4:30)
+    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)
+    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)
+    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)
+    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+Error updating bot presence: TypeError: Cannot read properties of undefined (reading 'setPresence')
+    at updateBotPresence (/home/container/utils/botPresence.js:3:23)
+    at Client.<anonymous> (/home/container/index.js:452:15)
+    at Client.emit (node:events:507:28)
+    at GuildUpdateAction.handle (/home/container/node_modules/discord.js/src/client/actions/GuildUpdate.js:19:14)
+    at module.exports [as GUILD_UPDATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/GUILD_UPDATE.js:4:30)
+    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)
+    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)
+    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)
+    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+Error updating bot presence: TypeError: Cannot read properties of undefined (reading 'setPresence')
+    at updateBotPresence (/home/container/utils/botPresence.js:3:23)
+    at Client.<anonymous> (/home/container/index.js:452:15)
+    at Client.emit (node:events:507:28)
+    at GuildUpdateAction.handle (/home/container/node_modules/discord.js/src/client/actions/GuildUpdate.js:19:14)
+    at module.exports [as GUILD_UPDATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/GUILD_UPDATE.js:4:30)
+    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)
+    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)
+    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)
+    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+Starting check-in process for user: 1212854788677566605
+Starting check-in process for user: 1316392011359719517
+Starting check-in process for user: 1201003688005742714
+Starting check-in process for user: 1201003688005742714
+Starting check-in process for user: 1201003688005742714
+Starting check-in process for user: 1259136980906676298
+Starting check-in process for user: 1253230413585842209
+Starting check-in process for user: 1321449716742881314
+Starting check-in process for user: 1333514536841379861
+Starting check-in process for user: 822484996307550228
+Starting check-in process for user: 1279068165422186509
+Starting check-in process for user: 853044365285785630
+Starting check-in process for user: 1212854788677566605
+Starting check-in process for user: 987423620651425923
+Starting check-in process for user: 1032565135715356793
+Error updating bot presence: TypeError: Cannot read properties of undefined (reading 'setPresence')
+    at updateBotPresence (/home/container/utils/botPresence.js:3:23)
+    at Client.<anonymous> (/home/container/index.js:452:15)
+    at Client.emit (node:events:507:28)
+    at GuildUpdateAction.handle (/home/container/node_modules/discord.js/src/client/actions/GuildUpdate.js:19:14)
+    at module.exports [as GUILD_UPDATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/GUILD_UPDATE.js:4:30)
+    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)
+    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)
+    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)
+    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+Error updating bot presence: TypeError: Cannot read properties of undefined (reading 'setPresence')
+    at updateBotPresence (/home/container/utils/botPresence.js:3:23)
+    at Client.<anonymous> (/home/container/index.js:452:15)
+    at Client.emit (node:events:507:28)
+    at GuildUpdateAction.handle (/home/container/node_modules/discord.js/src/client/actions/GuildUpdate.js:19:14)
+    at module.exports [as GUILD_UPDATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/GUILD_UPDATE.js:4:30)
+    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)
+    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)
+    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)
+    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+Error updating bot presence: TypeError: Cannot read properties of undefined (reading 'setPresence')
+    at updateBotPresence (/home/container/utils/botPresence.js:3:23)
+    at Client.<anonymous> (/home/container/index.js:452:15)
+    at Client.emit (node:events:507:28)
+    at GuildUpdateAction.handle (/home/container/node_modules/discord.js/src/client/actions/GuildUpdate.js:19:14)
+    at module.exports [as GUILD_UPDATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/GUILD_UPDATE.js:4:30)
+    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)
+    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)
+    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)
+    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+Error updating bot presence: TypeError: Cannot read properties of undefined (reading 'setPresence')
+    at updateBotPresence (/home/container/utils/botPresence.js:3:23)
+    at Client.<anonymous> (/home/container/index.js:452:15)
+    at Client.emit (node:events:507:28)
+    at GuildUpdateAction.handle (/home/container/node_modules/discord.js/src/client/actions/GuildUpdate.js:19:14)
+    at module.exports [as GUILD_UPDATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/GUILD_UPDATE.js:4:30)
+    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)
+    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)
+    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)
+    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+Error updating bot presence: TypeError: Cannot read properties of undefined (reading 'setPresence')
+    at updateBotPresence (/home/container/utils/botPresence.js:3:23)
+    at Client.<anonymous> (/home/container/index.js:452:15)
+    at Client.emit (node:events:507:28)
+    at GuildUpdateAction.handle (/home/container/node_modules/discord.js/src/client/actions/GuildUpdate.js:19:14)
+    at module.exports [as GUILD_UPDATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/GUILD_UPDATE.js:4:30)
+    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)
+    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)
+    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)
+    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+Error updating bot presence: TypeError: Cannot read properties of undefined (reading 'setPresence')
+    at updateBotPresence (/home/container/utils/botPresence.js:3:23)
+    at Client.<anonymous> (/home/container/index.js:452:15)
+    at Client.emit (node:events:507:28)
+    at GuildUpdateAction.handle (/home/container/node_modules/discord.js/src/client/actions/GuildUpdate.js:19:14)
+    at module.exports [as GUILD_UPDATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/GUILD_UPDATE.js:4:30)
+    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)
+    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)
+    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)
+    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+Error updating bot presence: TypeError: Cannot read properties of undefined (reading 'setPresence')
+    at updateBotPresence (/home/container/utils/botPresence.js:3:23)
+    at Client.<anonymous> (/home/container/index.js:452:15)
+    at Client.emit (node:events:507:28)
+    at GuildUpdateAction.handle (/home/container/node_modules/discord.js/src/client/actions/GuildUpdate.js:19:14)
+    at module.exports [as GUILD_UPDATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/GUILD_UPDATE.js:4:30)
+    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)
+    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)
+    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)
+    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+Error updating bot presence: TypeError: Cannot read properties of undefined (reading 'setPresence')
+    at updateBotPresence (/home/container/utils/botPresence.js:3:23)
+    at Client.<anonymous> (/home/container/index.js:452:15)
+    at Client.emit (node:events:507:28)
+    at GuildUpdateAction.handle (/home/container/node_modules/discord.js/src/client/actions/GuildUpdate.js:19:14)
+    at module.exports [as GUILD_UPDATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/GUILD_UPDATE.js:4:30)
+    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)
+    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)
+    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)
+    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+Error updating bot presence: TypeError: Cannot read properties of undefined (reading 'setPresence')
+    at updateBotPresence (/home/container/utils/botPresence.js:3:23)
+    at Client.<anonymous> (/home/container/index.js:452:15)
+    at Client.emit (node:events:507:28)
+    at GuildUpdateAction.handle (/home/container/node_modules/discord.js/src/client/actions/GuildUpdate.js:19:14)
+    at module.exports [as GUILD_UPDATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/GUILD_UPDATE.js:4:30)
+    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)
+    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)
+    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)
+    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+Error updating bot presence: TypeError: Cannot read properties of undefined (reading 'setPresence')
+    at updateBotPresence (/home/container/utils/botPresence.js:3:23)
+    at Client.<anonymous> (/home/container/index.js:452:15)
+    at Client.emit (node:events:507:28)
+    at GuildUpdateAction.handle (/home/container/node_modules/discord.js/src/client/actions/GuildUpdate.js:19:14)
+    at module.exports [as GUILD_UPDATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/GUILD_UPDATE.js:4:30)
+    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)
+    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)
+    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)
+    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+Error updating bot presence: TypeError: Cannot read properties of undefined (reading 'setPresence')
+    at updateBotPresence (/home/container/utils/botPresence.js:3:23)
+    at Client.<anonymous> (/home/container/index.js:452:15)
+    at Client.emit (node:events:507:28)
+    at GuildUpdateAction.handle (/home/container/node_modules/discord.js/src/client/actions/GuildUpdate.js:19:14)
+    at module.exports [as GUILD_UPDATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/GUILD_UPDATE.js:4:30)
+    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)
+    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)
+    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)
+    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+Error updating bot presence: TypeError: Cannot read properties of undefined (reading 'setPresence')
+    at updateBotPresence (/home/container/utils/botPresence.js:3:23)
+    at Client.<anonymous> (/home/container/index.js:452:15)
+    at Client.emit (node:events:507:28)
+    at GuildUpdateAction.handle (/home/container/node_modules/discord.js/src/client/actions/GuildUpdate.js:19:14)
+    at module.exports [as GUILD_UPDATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/GUILD_UPDATE.js:4:30)
+    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)
+    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)
+    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)
+    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+Starting check-in process for user: 855040955703230505
+Error updating bot presence: TypeError: Cannot read properties of undefined (reading 'setPresence')
+    at updateBotPresence (/home/container/utils/botPresence.js:3:23)
+    at Client.<anonymous> (/home/container/index.js:452:15)
+    at Client.emit (node:events:507:28)
+    at GuildUpdateAction.handle (/home/container/node_modules/discord.js/src/client/actions/GuildUpdate.js:19:14)
+    at module.exports [as GUILD_UPDATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/GUILD_UPDATE.js:4:30)
+    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)
+    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)
+    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)
+    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+Starting check-in process for user: 582397800742912031
+Starting check-in process for user: 804009621965504532
+[31merror[39m: Uncaught Exception: Uncaught Exception: {"critical":true,"stack":"TypeError: Cannot read properties of undefined (reading 'startsWith')\n    at Client.<anonymous> (/home/container/index.js:1882:37)\n    at Client.emit (node:events:519:35)\n    at InteractionCreateAction.handle (/home/container/node_modules/discord.js/src/client/actions/InteractionCreate.js:97:12)\n    at module.exports [as INTERACTION_CREATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)\n    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)\n    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)\n    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)\n    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1005:14)","timestamp":"2025-02-07T18:04:03.785Z"}
+[31merror[39m: Uncaught Exception: Uncaught Exception: {"critical":true,"stack":"TypeError: Cannot read properties of undefined (reading 'startsWith')\n    at Client.<anonymous> (/home/container/index.js:1882:37)\n    at Client.emit (node:events:519:35)\n    at InteractionCreateAction.handle (/home/container/node_modules/discord.js/src/client/actions/InteractionCreate.js:97:12)\n    at module.exports [as INTERACTION_CREATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)\n    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)\n    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)\n    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)\n    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)\n    at WebSocketShard.onMessage (/home/container/node_modules/@discordjs/ws/dist/index.js:1005:14)","timestamp":"2025-02-07T18:04:23.215Z"}
+Starting check-in process for user: 1222850623683170374
+Starting check-in process for user: 983311962836443206
+Starting check-in process for user: 701689845612937288
+Starting check-in process for user: 983311962836443206
+Starting check-in process for user: 1201003688005742714
+Starting check-in process for user: 884895549810163804
+Starting check-in process for user: 1006858146641362994
+Starting check-in process for user: 1176293094719766558
+Starting check-in process for user: 587313827285303307
+Starting check-in process for user: 1324769421884915882
+Starting check-in process for user: 1261841996327292948
+Error updating bot presence: TypeError: Cannot read properties of undefined (reading 'setPresence')
+    at updateBotPresence (/home/container/utils/botPresence.js:3:23)
+    at Client.<anonymous> (/home/container/index.js:452:15)
+    at Client.emit (node:events:507:28)
+    at GuildUpdateAction.handle (/home/container/node_modules/discord.js/src/client/actions/GuildUpdate.js:19:14)
+    at module.exports [as GUILD_UPDATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/GUILD_UPDATE.js:4:30)
+    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)
+    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)
+    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)
+    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+Error updating bot presence: TypeError: Cannot read properties of undefined (reading 'setPresence')
+    at updateBotPresence (/home/container/utils/botPresence.js:3:23)
+    at Client.<anonymous> (/home/container/index.js:452:15)
+    at Client.emit (node:events:507:28)
+    at GuildUpdateAction.handle (/home/container/node_modules/discord.js/src/client/actions/GuildUpdate.js:19:14)
+    at module.exports [as GUILD_UPDATE] (/home/container/node_modules/discord.js/src/client/websocket/handlers/GUILD_UPDATE.js:4:30)
+    at WebSocketManager.handlePacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:348:31)
+    at WebSocketManager.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:232:12)
+    at WebSocketManager.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/@discordjs/ws/dist/index.js:1190:51)
+    at WebSocketShard.emit (/home/container/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+Starting check-in process for user: 855040955703230505
+[32minfo[39m: Starting automatic check-out... {"timestamp":"2025-02-07T20:58:00.394Z"}
+[32minfo[39m: Removed attendance role from nan_il in guild ArabTwilight {"timestamp":"2025-02-07T20:58:00.973Z"}
+[32minfo[39m: Removed attendance role from 7mod.alshy5_22132 in guild ArabBloom {"timestamp":"2025-02-07T20:58:15.129Z"}
+[32minfo[39m: Starting daily attendance report... {"timestamp":"2025-02-07T20:59:00.422Z"}
