@@ -25,3 +25,10 @@ node_modules/
 npm-debug.log
 .env
 .DS_Store
+
+# Environment and IDE
+.cache/
+.local/
+.vscode/
+logs/
+*.log
